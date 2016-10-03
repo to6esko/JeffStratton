@@ -11,14 +11,20 @@ export default class App extends React.Component{
     render() {
         return (
             <div>
-                <Home/>
+                <div>
+                   <Home/>
+                </div>
+                <div>
                 <Violins/>
+                </div>
+                <div>
                 <ul>
                     <li><Link to="/gallery"><h2>Gallery</h2></Link></li>
                     <li><Link to="/forSale"><h2>ForSale</h2></Link></li>
                     <li><Link to="/contact"><h2>Contact</h2></Link></li>
                 </ul>
                 {this.props.children}
+                </div>
             </div>
         );
     }
