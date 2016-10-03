@@ -1,5 +1,7 @@
 import React from 'react';
+import {Router, Route, Link} from 'react-router';
 
+import Home from 'components/home';
 import Violins from 'components/violins';
 import Gallery from 'components/gallery';
 import ForSale from 'components/forSale';
@@ -9,11 +11,14 @@ export default class App extends React.Component{
     render() {
         return (
             <div>
-                <h1>StrattonViolin</h1>
-                <Violins/>
-                <Gallery/>
-                <ForSale/>
-                <Contact/>
+                <Home/>
+                <ul>
+                    <li><Link to="/violins">Violins</Link></li>
+                    <li><Link to="/gallery">Gallery</Link></li>
+                    <li><Link to="/forSale">ForSale</Link></li>
+                    <li><Link to="/contact">Contact</Link></li>
+                </ul>
+                
             </div>
         );
     }
