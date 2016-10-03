@@ -21,13 +21,11 @@ ReactDOM.render(
         <Route path="/"component={App}/>
         <IndexRoute component={Home}/>
         <Route path="gallery" component={Gallery}/>
-        <Route path="violins" component={Violins}>
-            <Route path="semiCustom" component={SemiCustom}/>
-            <Route path="standart" component={Standart}/>
-            <Route path="gypsy" component={Gypsy}/>
-            <Route path="kirilPetrov" component={KirilPetrov}/>
-            <Route path="robertKantor" component={RobertKantor}/>
-        </Route>
+        <Route path="violins/semiCustom" component={SemiCustom}/>
+        <Route path="violins/standart" component={Standart}/>
+        <Route path="violins/gypsy" component={Gypsy}/>
+        <Route path="violins/kirilPetrov" component={KirilPetrov}/>
+        <Route path="violins/robertKantor" component={RobertKantor}/>
         <Route path="forSale" component={ForSale}/>
         <Route path="contact" component={Contact}/>
     </Router>, app);
