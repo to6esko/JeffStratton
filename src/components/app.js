@@ -1,5 +1,5 @@
 import React from 'react';
-import {Router, Route, Link} from 'react-router';
+import {Router, Route, Link,hashHistory} from 'react-router';
 
 import Home from 'components/home';
 import Violins from 'components/violins';
@@ -18,7 +18,7 @@ export default class App extends React.Component{
                     <li><Link to="/forSale">ForSale</Link></li>
                     <li><Link to="/contact">Contact</Link></li>
                 </ul>
-                
+                {this.props.children}
             </div>
         );
     }
