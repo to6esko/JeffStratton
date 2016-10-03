@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import {Router, Route, Link, browserHistory,IndexRoute} from 'react-router';
+import {Router, Route, Link, hashHistory,IndexRoute} from 'react-router';
 
 import App from 'components/app';
 import Home from 'components/home';
@@ -12,7 +12,7 @@ import Contact from 'components/contact';
 const app = document.getElementById('app');
 
 ReactDOM.render(
-    <Router history={browserHistory}>
+    <Router history={hashHistory}>
         <Route path="/"component={App}/>
         <IndexRoute component={Home}/>
         <Route path="gallery" component={Gallery}/>

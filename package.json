@@ -18,6 +18,7 @@
   },
   "homepage": "https://github.com/to6esko/JeffStratton#readme",
   "dependencies": {
+    "history": "^4.3.0",
     "react": "^15.3.2",
     "react-dom": "^15.3.2",
     "react-router": "^2.8.1"
