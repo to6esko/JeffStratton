@@ -6,7 +6,7 @@ import Violins from 'components/Violins/violins';
 import Gallery from 'components/Gallery/gallery';
 import ForSale from 'components/Sale/forSale';
 import Contact from 'components/Contact/contact';
-import SlideShow from 'components/Home/page_slider';
+import SlideShow from 'components/Home/pageSlider';
 
 export default class App extends React.Component{
     constructor() {
@@ -16,23 +16,23 @@ export default class App extends React.Component{
         return (
             <div>
                 <div className="slideShow">
-                        <SlideShow/>            
-                <div>
-                   <Home/>
-                </div>
-                <div>
-                <Violins/>
-                </div>
-                <div>
-                <ul>
-                    <li><Link to="/gallery"><h2>Gallery</h2></Link></li>
-                    <li><Link to="/forSale"><h2>ForSale</h2></Link></li>
-                    <li><Link to="/contact"><h2>Contact</h2></Link></li>
-                </ul>
-                </div>
-                {this.props.children}
+                        <SlideShow />
+                </div> 
+                    <div>
+                        <Home/>
+                        <div>
+                            <Violins/>
+                        </div>
+                        <div>
+                            <ul>
+                                <li><Link to="/gallery"><h2>Gallery</h2></Link></li>
+                                <li><Link to="/forSale"><h2>ForSale</h2></Link></li>
+                                <li><Link to="/contact"><h2>Contact</h2></Link></li>
+                            </ul>
+                        </div>
+                    </div>
+                
             </div>
-                </div>
         );
     }
 }

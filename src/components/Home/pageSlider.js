@@ -2,13 +2,31 @@ import React from 'react';
 
 let images = [
     {
-        img:'../../pageSlider/1.jpg'
+        img:'../../pageSliders/1.jpg'
     },
     {
-        img:'../../pageSlider/2.JPG'
+        img:'../../pageSliders/2.jpg'
     },
     {
-        img:'../../pageSlider/3.JPG'
+        img:'../../pageSliders/3.jpg'
+    },
+    {
+        img:'../../pageSliders/4.jpg'
+    },
+    {
+        img:'../../pageSliders/5.jpg'
+    },
+    {
+        img:'../../pageSliders/7.jpg'
+    },
+    {
+        img:'../../pageSliders/8.jpg'
+    },
+    {
+        img:'../../pageSliders/9.jpg'
+    },
+    {
+        img:'../../pageSliders/10.jpg'
     }
 ]
 
@@ -37,21 +55,19 @@ export default class SlideShow extends React.Component{
 
             console.log("operator " + operator);
             console.log("pointer " + pointer);
-
             self.setState({ operator: operator, pointer: pointer });
-        }, 2000);
+        }, 5000);
     }
+    
+    
+
+
     render() {
         var pointedImage = this.state.links[this.state.pointer];
         console.log("pointedImage " + pointedImage.img);
         console.log("pointer " + this.state.pointer);
-        var imageStyle = { backgroundImage: 'url(' + pointedImage.img + ')', };
-        return (
-            <div id="slideShow">
-                <div style={imageStyle}>
-                </div>
-            </div>
-        );
+        var imageStyle = { backgroundImage: 'url(' + pointedImage.img + ')' };
+        return (<span style={imageStyle}></span>);
     }
 }
 
