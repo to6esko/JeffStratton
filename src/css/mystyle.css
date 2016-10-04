@@ -1,0 +1,12 @@
+#slideShow{
+    width: 100%;
+    height:100%;
+    margin: auto;
+    border:1px solid black;
+    }
+
+div#slideShow{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}

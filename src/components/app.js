@@ -6,11 +6,17 @@ import Violins from 'components/Violins/violins';
 import Gallery from 'components/Gallery/gallery';
 import ForSale from 'components/Sale/forSale';
 import Contact from 'components/Contact/contact';
+import SlideShow from 'components/Home/page_slider';
 
 export default class App extends React.Component{
+    constructor() {
+        super();
+    }
     render() {
         return (
             <div>
+                <div className="slideShow">
+                        <SlideShow/>            
                 <div>
                    <Home/>
                 </div>
@@ -26,6 +32,7 @@ export default class App extends React.Component{
                 </div>
                 {this.props.children}
             </div>
+                </div>
         );
     }
 }
