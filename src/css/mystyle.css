@@ -1,10 +1,25 @@
 
+html,body{
+    margin: 0;
+    padding:0;
+    -webkit-tap-highlight-color: transparent;
+}
+
+body{
+    font-family: brandon-grotesque,HelveticaNeue-Light,Helvetica Neue Light,Helvetica Neue,Helvetica,Arial,Lucida Grande,sans-serif;
+    font-weight: 400;
+    -webkit-font-smoothing: antialiased;
+    color: #fff;
+    
+}
 
 
+
+/*SlideShow*/
 
 
 .slideShow span{
-width: 100%;
+    width: 100%;
     height: 100%;
     position: absolute;
     top: 0px;
@@ -14,39 +29,88 @@ width: 100%;
     background-repeat: no-repeat;
     
     z-index: 1;
-    -webkit-animation: imageAnimation 40s linear infinite 0s;
-    -moz-animation: imageAnimation 40s linear infinite 0s;
-    -o-animation: imageAnimation 40s linear infinite 0s;
-    -ms-animation: imageAnimation 40s linear infinite 0s;
-    animation: imageAnimation 40s linear infinite 0s;
+    -webkit-animation: imageAnimation 54s linear infinite 0s;
+    -moz-animation: imageAnimation 54s linear infinite 0s;
+    -o-animation: imageAnimation 54s linear infinite 0s;
+    -ms-animation: imageAnimation 54s linear infinite 0s;
+    animation: imageAnimation 54s linear infinite 0s;
 }
 
-@keyframes imageAnimation{
-0% {
-    opacity: 0.8;
-    animation-timing-function: ease-in;
-}
-50%{
-    opacity: 1;
-    transform: scale(1.20);
-    animation-timing-function: ease-in-out;
-}
-100% {
-    opacity: 1;
-    transform: scale(1.00);
-    animation-timing-function: ease-in;
-}
+@keyframes imageAnimation { 
+	0% {
+	    opacity: 0;
+	    animation-timing-function: ease-in;
+	}
+	8% {
+	    opacity: 1;
+	    transform: scale(1.05);
+	    animation-timing-function: ease-out;
+	}
+	17% {
+	    opacity: 1;
+	    transform: scale(1.1) rotate(3deg);
+	}
+	25% {
+	    opacity: 0;
+	    transform: scale(1.1) rotate(3deg);
+	}
+	100% { opacity: 0 }
 }
 
 .slideShow::after{
-        content: '';
-    position: fixed;
+    content: '';
+    position: absolute;
     width: 100%;
     height: 100%;
     top: 0px;
     left: 0px;
     z-index: 0;
     background: transparent url(../../modelPages/back2.jpg) repeat top left;
+}
+
+
+/*Navigation*/
+h1, h2, h3, h4, h5, h6 {
+    clear: both;
+}
+.container{
+    position: fixed;
+    left: 0px;
+    width: 100%;
+    text-align: left;
+    z-index: 1;
+    margin-left: 50px;
+    font-family: brandon-grotesque,HelveticaNeue-Light,Helvetica Neue Light,Helvetica Neue,Helvetica,Arial,Lucida Grande,sans-serif;
+    -webkit-font-smoothing: antialiased;
+    font-size: 20px;
+    line-height: 25px;
+    color: #ccc394;
+     /*color: #fff; */
+    font-weight: 400;
+    text-transform: uppercase;
+    text-shadow: 0 1px 2px #222;
+    
+}
+
+.container_links{
+    padding: 0;
+    line-height: 100px;
+}
+
+/*links decoration*/
+li{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+    color: #ccc394;
+    cursor:pointer;
+}
+a:hover{
+    color: #0040ff
+}
+.violin_content{
+    line-height: 35px;
 }
 
 

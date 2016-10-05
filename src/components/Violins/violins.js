@@ -9,7 +9,7 @@ import RobertKantor from 'components/Violins/robertKantor';
 export default class Violins extends React.Component{
     render() {
         return (
-            <div>
+            <div className="violin_content">
                 <h2>Violins</h2>
                 <ul>
                 <li><Link to="/violins/semiCustom">SemiCustom</Link></li>

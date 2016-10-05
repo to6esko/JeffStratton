@@ -15,15 +15,17 @@ export default class App extends React.Component{
     render() {
         return (
             <div>
+                
                 <div className="slideShow">
                         <SlideShow />
                 </div> 
-                    <div>
+                <div className="container">
+                    <div className="container_links">
                         <Home/>
                         <div>
                             <Violins/>
                         </div>
-                        <div>
+                        <div >
                             <ul>
                                 <li><Link to="/gallery"><h2>Gallery</h2></Link></li>
                                 <li><Link to="/forSale"><h2>ForSale</h2></Link></li>
@@ -31,7 +33,7 @@ export default class App extends React.Component{
                             </ul>
                         </div>
                     </div>
-                
+                </div>
             </div>
         );
     }

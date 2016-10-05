@@ -17,6 +17,9 @@ let images = [
         img:'../../pageSliders/5.jpg'
     },
     {
+        img:'../../pageSliders/6.jpg'
+    },
+    {
         img:'../../pageSliders/7.jpg'
     },
     {
@@ -24,9 +27,6 @@ let images = [
     },
     {
         img:'../../pageSliders/9.jpg'
-    },
-    {
-        img:'../../pageSliders/10.jpg'
     }
 ]
 
