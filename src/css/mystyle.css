@@ -29,13 +29,20 @@ body{
     background-repeat: no-repeat;
     
     z-index: 1;
-    -webkit-animation: imageAnimation 54s linear infinite 0s;
-    -moz-animation: imageAnimation 54s linear infinite 0s;
-    -o-animation: imageAnimation 54s linear infinite 0s;
-    -ms-animation: imageAnimation 54s linear infinite 0s;
-    animation: imageAnimation 54s linear infinite 0s;
+    /*
+    -webkit-animation: imageAnimation 6s linear infinite 0s;
+    -moz-animation: imageAnimation 6s linear infinite 0s;
+    -o-animation: imageAnimation 6s linear infinite 0s;
+    -ms-animation: imageAnimation 6s linear infinite 0s;
+    */
+    animation: imageAnimation 45s linear infinite 0s;
 }
-
+@keyframes imageAnimation { 
+    0% { opacity: 0; animation-timing-function: ease-in; }
+    25% { opacity: 1; animation-timing-function: ease-out; }
+    100% { opacity: 0 }
+}
+/*
 @keyframes imageAnimation { 
 	0% {
 	    opacity: 0;
@@ -47,16 +54,20 @@ body{
 	    animation-timing-function: ease-out;
 	}
 	17% {
-	    opacity: 1;
-	    transform: scale(1.1) rotate(3deg);
+	     opacity: 1;
+	    transform: scale(1.05);
+	    animation-timing-function: ease-out;
 	}
 	25% {
 	    opacity: 0;
-	    transform: scale(1.1) rotate(3deg);
+	    animation-timing-function: ease-in;
 	}
 	100% { opacity: 0 }
 }
-
+*/
+.no-cssanimations .cb-slideshow span{
+	opacity: 1;
+}
 .slideShow::after{
     content: '';
     position: absolute;

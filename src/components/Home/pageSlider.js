@@ -56,7 +56,7 @@ export default class SlideShow extends React.Component{
             console.log("operator " + operator);
             console.log("pointer " + pointer);
             self.setState({ operator: operator, pointer: pointer });
-        }, 5000);
+        },5000);
     }
     
     
@@ -66,7 +66,12 @@ export default class SlideShow extends React.Component{
         var pointedImage = this.state.links[this.state.pointer];
         console.log("pointedImage " + pointedImage.img);
         console.log("pointer " + this.state.pointer);
-        var imageStyle = { backgroundImage: 'url(' + pointedImage.img + ')' };
+        var imageStyle = {
+            color: 'white',
+            backgroundImage: 'url(' + pointedImage.img + ')',
+            WebkitTransition: 'all', 
+            msTransition: 'all'
+        };
         return (<span style={imageStyle}></span>);
     }
 }

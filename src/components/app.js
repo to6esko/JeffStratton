@@ -6,7 +6,8 @@ import Violins from 'components/Violins/violins';
 import Gallery from 'components/Gallery/gallery';
 import ForSale from 'components/Sale/forSale';
 import Contact from 'components/Contact/contact';
-import SlideShow from 'components/Home/pageSlider';
+//import SlideShow from 'components/Home/pageSlider';
+import Sliders from 'components/Home/sliders';
 
 export default class App extends React.Component{
     constructor() {
@@ -17,7 +18,7 @@ export default class App extends React.Component{
             <div>
                 
                 <div className="slideShow">
-                        <SlideShow />
+                    <Sliders/>
                 </div> 
                 <div className="container">
                     <div className="container_links">
