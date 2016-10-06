@@ -4,10 +4,16 @@ import Home from 'components/Home/home';
 
 export default class Gypsy extends React.Component{
     render() {
+        var divStyle = { backgroundImage: 'url(' + '../../modelPages/back2.jpg' + ')' };
         return (
             <div>
-                <Link to="#/home"><h1>StrattonViolin</h1></Link>
-                <h2>Gypsy</h2>
+                <div>
+                    <span className="gypsy" style={divStyle}></span>
+                </div>
+                <div className="gypsyHome">
+                    <Link to="#/home"><h1>Strattons-Violin</h1></Link>
+                    <h2>Gypsy</h2>
+                </div>
             </div>
         );
     }

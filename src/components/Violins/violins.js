@@ -12,11 +12,11 @@ export default class Violins extends React.Component{
             <div className="violins">
                 <h2>Violins</h2>
                 <ul className="violins_content">
-                <li><Link to="/violins/semiCustom">SemiCustom</Link></li>
+                <li><Link to="/violins/semiCustom">Semi Custom</Link></li>
                     <li><Link to="/violins/standart">Standart</Link></li>
                     <li><Link to="/violins/gypsy">Gypsy</Link></li>
-                    <li><Link to="/violins/kirilPetrov">KirilPetrov</Link></li>
-                    <li><Link to="/violins/robertKantor">RobertKantor</Link></li>
+                    <li><Link to="/violins/kirilPetrov">Kiril Petrov</Link></li>
+                    <li><Link to="/violins/robertKantor">Robert Kantor</Link></li>
                 </ul>
             </div>
         );
