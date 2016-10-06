@@ -59,9 +59,6 @@ export default class SlideShow extends React.Component{
         },5000);
     }
     
-    
-
-
     render() {
         var pointedImage = this.state.links[this.state.pointer];
         console.log("pointedImage " + pointedImage.img);

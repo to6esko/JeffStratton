@@ -1,6 +1,10 @@
 import React from 'react';
-import ReactTransitionGroup from 'react-addons-transition-group';
-import ReactCSSTransitionGroup from 'react-addons-css-transition-group';
+//import ReactTransitionGroup from 'react-addons-transition-group';
+//import ReactCSSTransitionGroup from 'react-addons-css-transition-group';
+
+
+
+
 
 let images = [
     {
@@ -29,9 +33,6 @@ let images = [
     },
     {
         img:'../../pageSliders/9.jpg'
-    },
-    {
-        img:'../../pageSliders/10.jpg'
     }
 ]
 
@@ -53,6 +54,9 @@ export default class Sliders extends React.Component {
                 counter = counter[i];
             }
             myIndex++;
+        
+            console.log('myIndex ' + myIndex);
+        
             if (myIndex > self.state.links.length - 1) {
                 myIndex = 0;
             }
@@ -61,7 +65,7 @@ export default class Sliders extends React.Component {
     componentDidMount() {
         this.interval = setInterval(() => {
             this.countInterval();
-        }, 2000); 
+        }, 6000); 
     }
     componentWillUnmount() {
         clearInterval(this.interval);
@@ -69,21 +73,36 @@ export default class Sliders extends React.Component {
     
     render() {
         var pointedImage = this.state.links[this.state.myIndex];
+        
+        console.log("pointedImage " + pointedImage.img);
+        
         var imageStyle = {
-            color: 'white',
             backgroundImage: 'url(' + pointedImage.img + ')',
             WebkitTransition: 'all',
             msTransition: 'all'
         };
         return (
+            <div className="slideShow">
+                <span style={imageStyle}></span>    
+            </div>
+        );
+        /*
+        return (
             <div>
                 <ReactTransitionGroup
                     transitionName="slideShow"
+                    //component="div"
+                    //className="slideShow"
+                    transitionAppear={true}
+                    transitionEnter={true}
+                    transitionLeave={true}
                     transitionEnterTimeout={500}
-                    transitionLeaveTimeout={300}>
-                    <span style={imageStyle}>{this.props.children}</span>
+                    transitionLeaveTimeout={500}
+                    >
+                    <span className="slideShow" style={imageStyle}>{this.pointedImage}</span>
                 </ReactTransitionGroup>
             </div>
         );
+        */
     }
 }

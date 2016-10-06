@@ -16,17 +16,16 @@ export default class App extends React.Component{
     render() {
         return (
             <div>
-                
-                <div className="slideShow">
+                <div>
                     <Sliders/>
-                </div> 
+                </div>
                 <div className="container">
-                    <div className="container_links">
+                    <div>
                         <Home/>
-                        <div>
-                            <Violins/>
-                        </div>
-                        <div >
+                    </div>
+                    <div >
+                        <Violins/>
+                        <div className="container_links">
                             <ul>
                                 <li><Link to="/gallery"><h2>Gallery</h2></Link></li>
                                 <li><Link to="/forSale"><h2>ForSale</h2></Link></li>

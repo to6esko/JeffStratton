@@ -1,4 +1,8 @@
 
+
+
+
+
 html,body{
     margin: 0;
     padding:0;
@@ -7,18 +11,17 @@ html,body{
 
 body{
     font-family: brandon-grotesque,HelveticaNeue-Light,Helvetica Neue Light,Helvetica Neue,Helvetica,Arial,Lucida Grande,sans-serif;
-    font-weight: 400;
+    font-weight: normal;
     -webkit-font-smoothing: antialiased;
     color: #fff;
-    
+    overflow:hidden;
 }
 
 
 
 /*SlideShow*/
 
-
-.slideShow span{
+.slideShow span {
     width: 100%;
     height: 100%;
     position: absolute;
@@ -27,44 +30,41 @@ body{
     background-size: cover;
     background-position: 50% 50%;
     background-repeat: no-repeat;
-    
+    opacity:0;
     z-index: 1;
-    /*
+
     -webkit-animation: imageAnimation 6s linear infinite 0s;
     -moz-animation: imageAnimation 6s linear infinite 0s;
     -o-animation: imageAnimation 6s linear infinite 0s;
     -ms-animation: imageAnimation 6s linear infinite 0s;
-    */
-    animation: imageAnimation 45s linear infinite 0s;
+    
+    animation: imageAnimation 6s linear infinite 0s;
+    
 }
-@keyframes imageAnimation { 
-    0% { opacity: 0; animation-timing-function: ease-in; }
-    25% { opacity: 1; animation-timing-function: ease-out; }
-    100% { opacity: 0 }
-}
-/*
+
+
 @keyframes imageAnimation { 
 	0% {
 	    opacity: 0;
-	    animation-timing-function: ease-in;
+        animation-timing-function: ease-in;
 	}
-	8% {
-	    opacity: 1;
-	    transform: scale(1.05);
-	    animation-timing-function: ease-out;
-	}
-	17% {
+	
+	25% {
 	     opacity: 1;
 	    transform: scale(1.05);
 	    animation-timing-function: ease-out;
 	}
-	25% {
-	    opacity: 0;
-	    animation-timing-function: ease-in;
+    50% {
+	     opacity: 1;
+	    transform: scale(1.05);
+	}
+     75% {
+	     opacity: 0;
+	    transform: scale(1.05);
 	}
 	100% { opacity: 0 }
 }
-*/
+
 .no-cssanimations .cb-slideshow span{
 	opacity: 1;
 }
@@ -84,28 +84,44 @@ body{
 h1, h2, h3, h4, h5, h6 {
     clear: both;
 }
-.container{
+.container {
     position: fixed;
     left: 0px;
     width: 100%;
     text-align: left;
     z-index: 1;
-    margin-left: 50px;
-    font-family: brandon-grotesque,HelveticaNeue-Light,Helvetica Neue Light,Helvetica Neue,Helvetica,Arial,Lucida Grande,sans-serif;
+    padding-top: 50px;
     -webkit-font-smoothing: antialiased;
-    font-size: 20px;
+    font-size: 1.5em;
     line-height: 25px;
-    color: #ccc394;
-     /*color: #fff; */
+    /*color: #ccc394;*/
+    color: #fff; 
     font-weight: 400;
-    text-transform: uppercase;
     text-shadow: 0 1px 2px #222;
     
 }
+.home_title{
+   position: absolute;
+   margin-left: 20px;
+   font-size:1.5em;
+}
+.home_title::first-letter{
+   font-family: Vivaldi;
+   font-size:1.5em;
+}
 
 .container_links{
-    padding: 0;
-    line-height: 100px;
+    position: relative;
+    margin-left: 55px;
+    line-height: 45px;
+}
+.violins{
+    position: relative;
+    padding-top:160px;
+    padding-left: 100px;
+}
+.violins_content{
+    line-height: 50px;
 }
 
 /*links decoration*/
@@ -114,14 +130,13 @@ li{
 }
 a{
     text-decoration: none;
-    color: #ccc394;
+    /*color: #ccc394;*/
+    color: #fff;
     cursor:pointer;
 }
 a:hover{
     color: #0040ff
 }
-.violin_content{
-    line-height: 35px;
-}
+
 
 
