@@ -345,7 +345,7 @@ a:hover{
 
 /*Contact*/
 .contactHome{
-   position: absolute;
+    position: absolute;
     left: 50px;
     width: 100%;
     text-align: left;
@@ -425,37 +425,86 @@ a:hover{
 }
 
 .galleryImages{
-    position: absolute;
+    display: -webkit-box;
+    position: relative;
     left: 50px;
     z-index: 1;
-    margin-top: 210px;
+    margin-top: 260px;
     -webkit-font-smoothing: antialiased;
     /*color: #ccc394;*/
     color: #fff; 
     font-weight: 400;
     text-shadow: 0 1px 2px #222;
-    padding-bottom: 50px; 
+    padding-bottom: 50px;
+    float: inherit;
 }
 
-   
-.image img { 
-    position: relative; 
-    border-collapse: initial;
+.galleryImages img{
     border-width:5px;	
     border-style:double;
     border-radius: 5px;
     border-color:black;
 }
-.image p {
-     
-   color: white; 
-   font: bold 24px/45px Helvetica, Sans-Serif; 
+
+.galleryImages p {
+   display: block;
+   color: white;  
    letter-spacing: 0;  
-   background: rgb(0, 0, 0); /* fallback color */
-   background: rgba(0, 0, 0, 0.7);
-   padding: 10px;
+   padding: 10px 10px 0 10px;
    word-wrap: word-break;
    width:250px;
-   height: 300px;
-   
+}
+
+.image-one{ 
+    position: relative;
+    padding: 10px 10px 0 10px;
+    display: block; 
+    border-width:5px;	
+    border-style:double;
+    border-radius: 5px;
+    border-color:black;
+    margin-right: 10px; 
+}
+.image-two{
+    position: relative;
+    padding: 10px 0 0 10px;
+    display: block; 
+    border-width:5px;	
+    border-style:double;
+    border-radius: 5px;
+    border-color:black;
+     margin-right: 10px; 
+}
+
+.image-three{
+    position: relative;
+    padding: 10px 0 0 10px;
+    display: block; 
+    border-width:5px;	
+    border-style:double;
+    border-radius: 5px;
+    border-color:black; 
+    margin-right: 10px; 
+}
+
+.image-four{
+    position: relative;
+    padding: 10px 0 0 10px;
+    display: block; 
+    border-width:5px;	
+    border-style:double;
+    border-radius: 5px;
+    border-color:black; 
+    margin-right: 10px; 
+}
+
+.image-five{
+    position: relative;
+    padding: 10px 0 0 10px;
+    display: block; 
+    border-width:5px;	
+    border-style:double;
+    border-radius: 5px;
+    border-color:black;
+    margin-right: 10px;  
 }
