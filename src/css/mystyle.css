@@ -6,7 +6,7 @@
 html,body{
     margin: 0;
     padding:0;
-    -webkit-tap-highlight-color: transparent;
+    
 }
 
 body{
@@ -14,10 +14,11 @@ body{
     font-weight: normal;
     -webkit-font-smoothing: antialiased;
     color: #fff;
-    overflow:hidden;
+    -webkit-tap-highlight-color: transparent;
 }
-
-
+.noScroll{
+    overflow: hidden;
+}
 
 /*SlideShow*/
 
@@ -32,7 +33,6 @@ body{
     background-repeat: no-repeat;
     opacity:0;
     z-index: 1;
-
     -webkit-animation: imageAnimation 6s linear infinite 0s;
     -moz-animation: imageAnimation 6s linear infinite 0s;
     -o-animation: imageAnimation 6s linear infinite 0s;
@@ -166,7 +166,7 @@ a:hover{
     left: 0px;
     background-size: cover;
     background-position: 50% 50%;
-    background-repeat: top left;
+    background-repeat: repeat;
     z-index: 1;
 }
 
@@ -198,7 +198,7 @@ a:hover{
     left: 0px;
     background-size: cover;
     background-position: 50% 50%;
-    background-repeat: top left;
+    background-repeat: repeat;
     z-index: 1;
 }
 
@@ -232,7 +232,7 @@ a:hover{
     left: 0px;
     background-size: cover;
     background-position: 50% 50%;
-    background-repeat: top left;
+    background-repeat: repeat;
     z-index: 1;
 }
 
@@ -266,7 +266,7 @@ a:hover{
     left: 0px;
     background-size: cover;
     background-position: 50% 50%;
-    background-repeat: top left;
+    background-repeat:repeat;
     z-index: 1;
 }
 
@@ -300,6 +300,162 @@ a:hover{
     left: 0px;
     background-size: cover;
     background-position: 50% 50%;
-    background-repeat: top left;
+    background-repeat: repeat;
     z-index: 1;
+}
+
+/*Gallery*/
+.galleryHome{
+   position: absolute;
+    left: 50px;
+    width: 100%;
+    text-align: left;
+    z-index: 1;
+    padding-top: 50px;
+    -webkit-font-smoothing: antialiased;
+    font-size: 1.5em;
+    line-height: 25px;
+    /*color: #ccc394;*/
+    color: #fff; 
+    font-weight: 400;
+    text-shadow: 0 1px 2px #222;
+}
+.galleryHome h2{
+   position: absolute;
+   margin-left: 20px;
+   margin-top:0;
+   font-size:1.5em;
+}
+.galleryHome h1::first-letter{
+   font-family: Vivaldi;
+   font-size:1.5em;
+}
+.gallery{
+    width: 99%;
+    height: 100%;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    background-attachment:fixed;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    z-index: 1;
+}
+
+/*Contact*/
+.contactHome{
+   position: absolute;
+    left: 50px;
+    width: 100%;
+    text-align: left;
+    z-index: 1;
+    padding-top: 50px;
+    -webkit-font-smoothing: antialiased;
+    font-size: 1.5em;
+    line-height: 25px;
+    /*color: #ccc394;*/
+    color: #fff; 
+    font-weight: 400;
+    text-shadow: 0 1px 2px #222;
+}
+
+.contactHome h1::first-letter{
+   font-family: Vivaldi;
+   font-size:1.5em;
+}
+.contact{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    background-size: cover;
+    background-position: 50% 50%;
+    background-repeat: repeat;
+    z-index: 1;
+}
+
+/*For Sale*/
+.forSaleHome{
+   position: fixed;
+    left: 50px;
+    width: 100%;
+    text-align: left;
+    z-index: 1;
+    padding-top: 50px;
+    -webkit-font-smoothing: antialiased;
+    font-size: 1.5em;
+    line-height: 25px;
+    /*color: #ccc394;*/
+    color: #fff; 
+    font-weight: 400;
+    text-shadow: 0 1px 2px #222;
+}
+
+.forSaleHome h1::first-letter{
+   font-family: Vivaldi;
+   font-size:1.5em;
+}
+.forSale{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    background-size: cover;
+    background-position: 50% 50%;
+    background-repeat: repeat;
+    z-index: 1;
+}
+
+
+/*Gallery*/
+.section-inner{
+    position: absolute;
+    top:0;
+    bottom: 0;
+    left:0;
+    right: 0;
+    z-index:1;
+    overflow: auto;
+}
+.gallery-clearfix{
+    clear: both;
+}
+
+.galleryImages{
+    position: absolute;
+    left: 50px;
+    z-index: 1;
+    margin-top: 210px;
+    -webkit-font-smoothing: antialiased;
+    /*color: #ccc394;*/
+    color: #fff; 
+    font-weight: 400;
+    text-shadow: 0 1px 2px #222;
+    padding-bottom: 50px; 
+}
+
+   
+.image img { 
+    position: relative; 
+    border-collapse: initial;
+    border-width:5px;	
+    border-style:double;
+    border-radius: 5px;
+    border-color:black;
+}
+.image p {
+     
+   color: white; 
+   font: bold 24px/45px Helvetica, Sans-Serif; 
+   letter-spacing: 0;  
+   background: rgb(0, 0, 0); /* fallback color */
+   background: rgba(0, 0, 0, 0.7);
+   padding: 10px;
+   word-wrap: word-break;
+   width:250px;
+   height: 300px;
+   
 }

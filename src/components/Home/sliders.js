@@ -82,9 +82,11 @@ export default class Sliders extends React.Component {
             msTransition: 'all'
         };
         return (
+            <div className="slide-content">
             <div className="slideShow">
                 <span style={imageStyle}></span>    
             </div>
+                </div>
         );
         /*
         return (

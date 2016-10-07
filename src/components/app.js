@@ -15,26 +15,29 @@ export default class App extends React.Component{
     }
     render() {
         return (
-            <div>
-                <div>
-                    <Sliders/>
-                </div>
-                <div className="container">
+            
+                <div id="home">
                     <div>
-                        <Home/>
+                        <Sliders/>
                     </div>
-                    <div >
-                        <Violins/>
-                        <div className="container_links">
-                            <ul>
-                                <li><Link to="/gallery"><h2>Gallery</h2></Link></li>
-                                <li><Link to="/forSale"><h2>ForSale</h2></Link></li>
-                                <li><Link to="/contact"><h2>Contact</h2></Link></li>
-                            </ul>
+                    <div className="container">
+                    <div className="lightbox">
+                        <div>
+                            <Home/>
+                        </div>
+                        <div >
+                            <Violins/>
+                            <div className="container_links">
+                                <ul>
+                                    <li><Link to="/gallery"><h2>Gallery</h2></Link></li>
+                                    <li><Link to="/forSale"><h2>For Sale</h2></Link></li>
+                                    <li><Link to="/contact"><h2>Contact</h2></Link></li>
+                                </ul>
+                            </div>
                         </div>
                     </div>
+                    </div>
                 </div>
-            </div>
         );
     }
 }

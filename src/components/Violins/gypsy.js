@@ -11,7 +11,7 @@ export default class Gypsy extends React.Component{
                     <span className="gypsy" style={divStyle}></span>
                 </div>
                 <div className="gypsyHome">
-                    <Link to="#/home"><h1>Strattons-Violin</h1></Link>
+                    <Link to="#/home"><h1>Stratton-Violin</h1></Link>
                     <h2>Gypsy</h2>
                 </div>
             </div>

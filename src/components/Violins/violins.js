@@ -10,7 +10,7 @@ export default class Violins extends React.Component{
     render() {
         return (
             <div className="violins">
-                <h2>Violins</h2>
+                <h2>Violins:</h2>
                 <ul className="violins_content">
                 <li><Link to="/violins/semiCustom">Semi Custom</Link></li>
                     <li><Link to="/violins/standart">Standart</Link></li>

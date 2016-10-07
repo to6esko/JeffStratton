@@ -11,7 +11,7 @@ export default class RobertKantor extends React.Component{
                     <span className="kantor" style={divStyle}></span>
                 </div>
                 <div className="kantorHome">
-                    <Link to="#/home"><h1>Strattons-Violin</h1></Link>
+                    <Link to="#/home"><h1>Stratton-Violin</h1></Link>
                     <h2>Robert Kantor</h2>
                 </div>
             </div>
