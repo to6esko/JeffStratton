@@ -12,7 +12,6 @@ export default class Contact extends React.Component{
                 </div>
                 <div className="contactHome">
                     <Link to="#/home"><Home/></Link>
-                    <h2>Contact</h2>
                     <div>
                         <h2>Links</h2>
                     </div>
