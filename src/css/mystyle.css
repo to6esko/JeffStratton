@@ -398,7 +398,7 @@ a:hover{
    font-size:1.5em;
 }
 .forSale{
-    width: 100%;
+    width: 99%;
     height: 100%;
     position: absolute;
     top: 0px;
@@ -410,7 +410,7 @@ a:hover{
 }
 
 
-/*Gallery*/
+/*Gallery - For Sale*/
 .section-inner{
     position: absolute;
     top:0;
@@ -423,12 +423,12 @@ a:hover{
 .gallery-clearfix{
     clear: both;
 }
-
 .galleryImages{
-    display: -webkit-box;
-    position: relative;
-    left: 50px;
+    clear: both;
+    position: absolute;
     z-index: 1;
+    margin: auto;
+    width: 100%;
     margin-top: 260px;
     -webkit-font-smoothing: antialiased;
     /*color: #ccc394;*/
@@ -436,29 +436,31 @@ a:hover{
     font-weight: 400;
     text-shadow: 0 1px 2px #222;
     padding-bottom: 50px;
-    float: inherit;
 }
 
 .galleryImages img{
+    clear: both;
     border-width:5px;	
     border-style:double;
     border-radius: 5px;
     border-color:black;
+    width:100%;
 }
-
 .galleryImages p {
-   display: block;
+    clear: both;
    color: white;  
    letter-spacing: 0;  
    padding: 10px 10px 0 10px;
    word-wrap: word-break;
-   width:250px;
+   width:100%;
 }
 
-.image-one{ 
+.image-one{
+    clear: both;
+    display: inline-block;
     position: relative;
-    padding: 10px 10px 0 10px;
-    display: block; 
+    width: 25%;
+    padding: 10px 20px 0 10px;
     border-width:5px;	
     border-style:double;
     border-radius: 5px;
@@ -466,45 +468,49 @@ a:hover{
     margin-right: 10px; 
 }
 .image-two{
+    display: inline-block;
     position: relative;
-    padding: 10px 0 0 10px;
-    display: block; 
+    width: 25%;
+    padding: 10px 20px 0 10px;
     border-width:5px;	
     border-style:double;
     border-radius: 5px;
     border-color:black;
-     margin-right: 10px; 
+    margin-right: 10px;
 }
 
 .image-three{
+    display: inline-block;
     position: relative;
-    padding: 10px 0 0 10px;
-    display: block; 
+    width: 25%;
+    padding: 10px 20px 0 10px;
     border-width:5px;	
     border-style:double;
     border-radius: 5px;
-    border-color:black; 
+    border-color:black;
     margin-right: 10px; 
 }
 
 .image-four{
+    display: inline-block;    
     position: relative;
-    padding: 10px 0 0 10px;
-    display: block; 
-    border-width:5px;	
-    border-style:double;
-    border-radius: 5px;
-    border-color:black; 
-    margin-right: 10px; 
-}
-
-.image-five{
-    position: relative;
-    padding: 10px 0 0 10px;
-    display: block; 
+    width: 25%;
+    padding: 10px 20px 0 10px;
     border-width:5px;	
     border-style:double;
     border-radius: 5px;
     border-color:black;
-    margin-right: 10px;  
+    margin-right: 10px; 
+}
+
+.image-five{
+    display: inline-block;    
+    position: relative;
+    width: 25%;
+    padding: 10px 20px 0 10px;
+    border-width:5px;	
+    border-style:double;
+    border-radius: 5px;
+    border-color:black;
+    margin-right: 10px; 
 }
