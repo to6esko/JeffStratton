@@ -11,7 +11,7 @@ export default class KirilPetrov extends React.Component{
                     <span className="kikiPetrov" style={divStyle}></span>
                 </div>
                 <div className="kikiHome">
-                    <Link to="#/home"><h1>Stratton-Violin</h1></Link>
+                    <Link to="#/home"><Home/></Link>
                     <h2>Kiril Petrov</h2>
                 </div>
             </div>

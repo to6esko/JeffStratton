@@ -11,7 +11,7 @@ export default class Standard extends React.Component{
                     <span className="standard" style={divStyle}></span>
                 </div>
                 <div className="standardHome">
-                <Link to="#/home"><h1>Stratton-Violin</h1></Link>
+                <Link to="#/home"><Home/></Link>
                 <h2>Standard</h2>
                 </div>
             </div>    

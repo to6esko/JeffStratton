@@ -11,7 +11,7 @@ export default class SemiCustom extends React.Component{
                     <span className="semi" style={divStyle}></span>
                 </div>
                 <div className="semiHome">
-                    <Link to="#/home"><h1>Stratton-Violin</h1></Link>
+                    <Link to="#/home"><Home/></Link>
                     <h2>Semi Custom</h2>
                 </div>
             </div>

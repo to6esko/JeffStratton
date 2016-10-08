@@ -11,7 +11,7 @@ export default class Contact extends React.Component{
                     <span className="contact" style={divStyle}></span>
                 </div>
                 <div className="contactHome">
-                    <Link to="#/home"><h1>Stratton-Violin</h1></Link>
+                    <Link to="#/home"><Home/></Link>
                     <h2>Contact</h2>
                     <div>
                         <h2>Links</h2>

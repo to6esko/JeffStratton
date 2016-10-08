@@ -10,7 +10,7 @@ export default class ForSale extends React.Component{
                 <div className="section-inner">
                     <span className="forSale" style={divStyle}></span>
                     <div className="forSaleHome">
-                        <Link to="#/home"><h1>Stratton-Violin</h1></Link>
+                        <Link to="#/home"><Home/></Link>
                         <h2>For Sale</h2>
                     </div>
                     <div className="gallery-clearfix">

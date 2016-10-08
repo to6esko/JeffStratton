@@ -10,7 +10,7 @@ export default class Gallery extends React.Component{
                 <div className="section-inner">
                     <span className="gallery" style={divStyle}></span>
                     <div className="galleryHome">
-                        <Link to="#/home"><h1>Stratton-Violin</h1></Link>
+                        <Link to="#/home"><Home/></Link>
                         <h2>Gallery</h2>
                     </div>
                     <div className="gallery-clearfix">
