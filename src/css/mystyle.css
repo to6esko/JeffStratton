@@ -154,6 +154,12 @@ a:hover{
     font-weight: 400;
     text-shadow: 0 1px 2px #222;
 }
+.gypsyHome h2{
+   position: absolute;
+   margin-left: 20px;
+   margin-top:140px;
+   font-size:1.5em;
+}
 .gypsyHome h1::first-letter{
    font-family: Vivaldi;
    font-size:1.5em;
@@ -185,6 +191,12 @@ a:hover{
     color: #fff; 
     font-weight: 400;
     text-shadow: 0 1px 2px #222;
+}
+.kikiHome h2{
+   position: absolute;
+   margin-left: 20px;
+   margin-top:140px;
+   font-size:1.5em;
 }
 .kikiHome h1::first-letter{
    font-family: Vivaldi;
@@ -219,7 +231,12 @@ a:hover{
     font-weight: 400;
     text-shadow: 0 1px 2px #222;
 }
-
+.kantorHome h2{
+   position: absolute;
+   margin-left: 20px;
+   margin-top:140px;
+   font-size:1.5em;
+}
 .kantorHome h1::first-letter{
    font-family: Vivaldi;
    font-size:1.5em;
@@ -253,7 +270,12 @@ a:hover{
     font-weight: 400;
     text-shadow: 0 1px 2px #222;
 }
-
+.semiHome h2{
+   position: absolute;
+   margin-left: 20px;
+   margin-top:140px;
+   font-size:1.5em;
+}
 .semiHome h1::first-letter{
    font-family: Vivaldi;
    font-size:1.5em;
@@ -287,7 +309,12 @@ a:hover{
     font-weight: 400;
     text-shadow: 0 1px 2px #222;
 }
-
+.standardHome h2{
+   position: absolute;
+   margin-left: 20px;
+   margin-top:140px;
+   font-size:1.5em;
+}
 .standardHome h1::first-letter{
    font-family: Vivaldi;
    font-size:1.5em;
@@ -323,7 +350,7 @@ a:hover{
 .galleryHome h2{
    position: absolute;
    margin-left: 20px;
-   margin-top:0;
+   margin-top:140px;
    font-size:1.5em;
 }
 .galleryHome h1::first-letter{
@@ -395,7 +422,7 @@ a:hover{
 .forSaleHome h2{
    position: absolute;
    margin-left: 20px;
-   margin-top:0;
+   margin-top:140px;
    font-size:1.5em;
 }
 .forSaleHome h1::first-letter{
