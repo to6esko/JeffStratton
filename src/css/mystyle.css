@@ -424,22 +424,20 @@ a:hover{
     clear: both;
 }
 .galleryImages{
-    clear: both;
     position: absolute;
     z-index: 1;
-    margin: auto;
     width: 100%;
-    margin-top: 260px;
+    margin-top: 200px;
     -webkit-font-smoothing: antialiased;
     /*color: #ccc394;*/
     color: #fff; 
     font-weight: 400;
     text-shadow: 0 1px 2px #222;
     padding-bottom: 50px;
+    float: left;
 }
 
 .galleryImages img{
-    clear: both;
     border-width:5px;	
     border-style:double;
     border-radius: 5px;
@@ -447,7 +445,6 @@ a:hover{
     width:100%;
 }
 .galleryImages p {
-    clear: both;
    color: white;  
    letter-spacing: 0;  
    padding: 10px 10px 0 10px;
@@ -456,7 +453,6 @@ a:hover{
 }
 
 .image-one{
-    clear: both;
     display: inline-block;
     position: relative;
     width: 25%;
@@ -465,7 +461,7 @@ a:hover{
     border-style:double;
     border-radius: 5px;
     border-color:black;
-    margin-right: 10px; 
+    margin: 40px; 
 }
 .image-two{
     display: inline-block;
@@ -476,7 +472,7 @@ a:hover{
     border-style:double;
     border-radius: 5px;
     border-color:black;
-    margin-right: 10px;
+    margin: 40px; 
 }
 
 .image-three{
@@ -488,7 +484,7 @@ a:hover{
     border-style:double;
     border-radius: 5px;
     border-color:black;
-    margin-right: 10px; 
+    margin: 40px;  
 }
 
 .image-four{
@@ -500,7 +496,7 @@ a:hover{
     border-style:double;
     border-radius: 5px;
     border-color:black;
-    margin-right: 10px; 
+    margin: 40px; 
 }
 
 .image-five{
@@ -512,5 +508,5 @@ a:hover{
     border-style:double;
     border-radius: 5px;
     border-color:black;
-    margin-right: 10px; 
+    margin: 40px; 
 }
