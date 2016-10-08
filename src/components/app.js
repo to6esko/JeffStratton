@@ -18,7 +18,7 @@ export default class App extends React.Component{
             
                 <div id="home">
                     <div>
-                        
+                        <Sliders/>
                     </div>
                     <div className="container">
                     <div className="lightbox">

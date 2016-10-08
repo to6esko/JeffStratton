@@ -7,7 +7,7 @@ import App from 'components/app';
 //<IndexRoute component={home}/>
 import Violins from 'components/Violins/violins';
 import Gypsy from 'components/Violins/gypsy';
-import Standart from 'components/Violins/standart';
+import Standard from 'components/Violins/standard';
 import KirilPetrov from 'components/Violins/kirilPetrov';
 import SemiCustom from 'components/Violins/semiCustom';
 import RobertKantor from 'components/Violins/robertKantor';
@@ -22,7 +22,7 @@ ReactDOM.render(
         <Route path="/"component={App}/>
         <Route path="gallery" component={Gallery}/>
         <Route path="violins/semiCustom" component={SemiCustom}/>
-        <Route path="violins/standart" component={Standart}/>
+        <Route path="violins/standard" component={Standard}/>
         <Route path="violins/gypsy" component={Gypsy}/>
         <Route path="violins/kirilPetrov" component={KirilPetrov}/>
         <Route path="violins/robertKantor" component={RobertKantor}/>
