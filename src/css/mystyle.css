@@ -140,25 +140,35 @@ a:hover{
 
 /*Violins Gypsy*/
 .gypsyHome{
-   position: fixed;
+   position: relative;
     left: 50px;
     width: 100%;
-    text-align: left;
     z-index: 1;
     padding-top: 50px;
-    -webkit-font-smoothing: antialiased;
     font-size: 1.5em;
     line-height: 25px;
     /*color: #ccc394;*/
-    color: #fff; 
     font-weight: 400;
     text-shadow: 0 1px 2px #222;
 }
-.gypsyHome h2{
-   position: absolute;
+
+.gypsyContent{
+    position: relative;
+    left: 50px;
+    width: 40%;
+    text-align: left;
+    z-index: 1;
+    margin-top: 200px;
+    font-size: 1.5em;
+    line-height: 25px;
+    /*color: #ccc394;*/
+    font-weight: 400;
+    text-shadow: 0 1px 2px #222;
+}
+.gypsyContent h2{
+   position: relative;
    margin-left: 20px;
-   margin-top:140px;
-   font-size:1.5em;
+   font-size:1.5em;;
 }
 .gypsyHome h1::first-letter{
    font-family: Vivaldi;
@@ -178,24 +188,33 @@ a:hover{
 
 /*Violins Kiril Petrov*/
 .kikiHome{
-   position: fixed;
+   position: relative;
     left: 50px;
     width: 100%;
-    text-align: left;
     z-index: 1;
     padding-top: 50px;
-    -webkit-font-smoothing: antialiased;
     font-size: 1.5em;
     line-height: 25px;
     /*color: #ccc394;*/
-    color: #fff; 
     font-weight: 400;
     text-shadow: 0 1px 2px #222;
 }
-.kikiHome h2{
-   position: absolute;
+.kikiContent{
+    position: relative;
+    left: 50px;
+    width: 40%;
+    text-align: left;
+    z-index: 1;
+    margin-top: 200px;
+    font-size: 1.5em;
+    line-height: 25px;
+    /*color: #ccc394;*/
+    font-weight: 400;
+    text-shadow: 0 1px 2px #222;
+}
+.kikiContent h2{
+   position: relative;
    margin-left: 20px;
-   margin-top:140px;
    font-size:1.5em;
 }
 .kikiHome h1::first-letter{
@@ -217,24 +236,34 @@ a:hover{
 
 /*Violins Robert Kantor*/
 .kantorHome{
-   position: fixed;
+   position: relative;
     left: 50px;
     width: 100%;
-    text-align: left;
     z-index: 1;
     padding-top: 50px;
-    -webkit-font-smoothing: antialiased;
     font-size: 1.5em;
     line-height: 25px;
     /*color: #ccc394;*/
-    color: #fff; 
     font-weight: 400;
     text-shadow: 0 1px 2px #222;
 }
-.kantorHome h2{
-   position: absolute;
+
+.kantorContent{
+    position: relative;
+    left: 50px;
+    width: 40%;
+    text-align: left;
+    z-index: 1;
+    margin-top: 200px;
+    font-size: 1.5em;
+    line-height: 25px;
+    /*color: #ccc394;*/
+    font-weight: 400;
+    text-shadow: 0 1px 2px #222;
+}
+.kantorContent h2{
+   position: relative;
    margin-left: 20px;
-   margin-top:140px;
    font-size:1.5em;
 }
 .kantorHome h1::first-letter{
@@ -256,24 +285,34 @@ a:hover{
 
 /*Violins semi custom*/
 .semiHome{
-   position: fixed;
+   position: relative;
     left: 50px;
     width: 100%;
-    text-align: left;
     z-index: 1;
     padding-top: 50px;
-    -webkit-font-smoothing: antialiased;
     font-size: 1.5em;
     line-height: 25px;
     /*color: #ccc394;*/
-    color: #fff; 
     font-weight: 400;
     text-shadow: 0 1px 2px #222;
 }
-.semiHome h2{
-   position: absolute;
+
+.semiContent{
+    position: relative;
+    left: 50px;
+    width: 40%;
+    text-align: left;
+    z-index: 1;
+    margin-top: 200px;
+    font-size: 1.5em;
+    line-height: 25px;
+    /*color: #ccc394;*/
+    font-weight: 400;
+    text-shadow: 0 1px 2px #222;
+}
+.semiContent h2{
+   position: relative;
    margin-left: 20px;
-   margin-top:140px;
    font-size:1.5em;
 }
 .semiHome h1::first-letter{
@@ -295,24 +334,34 @@ a:hover{
 
 /*Violins standard*/
 .standardHome{
-   position: fixed;
+   position: relative;
     left: 50px;
     width: 100%;
-    text-align: left;
     z-index: 1;
     padding-top: 50px;
-    -webkit-font-smoothing: antialiased;
     font-size: 1.5em;
     line-height: 25px;
     /*color: #ccc394;*/
-    color: #fff; 
     font-weight: 400;
     text-shadow: 0 1px 2px #222;
 }
-.standardHome h2{
-   position: absolute;
+
+.standardContent{
+    position: relative;
+    left: 50px;
+    width: 40%;
+    text-align: left;
+    z-index: 1;
+    margin-top: 200px;
+    font-size: 1.5em;
+    line-height: 25px;
+    /*color: #ccc394;*/
+    font-weight: 400;
+    text-shadow: 0 1px 2px #222;
+}
+.standardContent h2{
+   position: relative;
    margin-left: 20px;
-   margin-top:140px;
    font-size:1.5em;
 }
 .standardHome h1::first-letter{
