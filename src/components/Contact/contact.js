@@ -1,6 +1,7 @@
 import React from 'react';
 import {Link} from 'react-router';
 import Home from 'components/Home/home';
+import Leault from 'components/leault';
 
 export default class Contact extends React.Component{
     render() {
@@ -12,6 +13,11 @@ export default class Contact extends React.Component{
                 </div>
                 <div className="contactHome">
                     <Link to="#/home"><Home/></Link>
+                </div>
+                <div className="leaultContact">
+                    <Leault/>
+                </div>
+                <div >
                     <div>
                         <h2>Links</h2>
                     </div>
