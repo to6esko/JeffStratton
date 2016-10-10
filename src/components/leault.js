@@ -13,7 +13,7 @@ export default class Leault extends React.Component{
     }
     render() {
         return (
-            <div className="container">
+            <div>
                 <Violins/>
                 <div className="container_links">
                     <ul>

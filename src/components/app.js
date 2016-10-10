@@ -20,7 +20,7 @@ export default class App extends React.Component{
                 <div className="container">
                     <Home/>
                 </div>
-                <div>
+                <div className="containerLeault">
                     <Leault/>
                 </div>
             </div>
