@@ -4,7 +4,7 @@ import Home from 'components/Home/home';
 
 export default class Gypsy extends React.Component{
     render() {
-        var divStyle = { backgroundImage: 'url(' + '../../modelPages/back2.jpg' + ')' };
+        var divStyle = { backgroundImage: 'url(' + 'modelPages/back2.jpg' + ')' };
         return (
             <div>
                 <div>

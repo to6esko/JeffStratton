@@ -4,7 +4,7 @@ import Home from 'components/Home/home';
 
 export default class ForSale extends React.Component{
     render() {
-        var divStyle = { backgroundImage: 'url(' + '../../pages/forSale.jpg' + ')' };
+        var divStyle = { backgroundImage: 'url(' + 'pages/forSale.jpg' + ')' };
         return (
             <div className="forSale-content">
                 <div className="section-inner">
@@ -16,7 +16,7 @@ export default class ForSale extends React.Component{
                     <div className="gallery-clearfix">
                         <div className="galleryImages">
                             <div className="image-one">
-                                <img src="../../gallery/gallery1.jpg" width="250px" height="500px" alt=""/>
+                                <img src="gallery/gallery1.jpg" width="250px" height="500px" alt=""/>
                                 <h3>Kiril Petrov</h3>
                                 <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac
                                     turpis egestas.Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor
@@ -24,7 +24,7 @@ export default class ForSale extends React.Component{
                                 </p>
                             </div>
                             <div className="image-two">
-                                <img src="../../gallery/gallery2.jpg" width="250px" height="500px" alt=""/>
+                                <img src="gallery/gallery2.jpg" width="250px" height="500px" alt=""/>
                                 <h3>Kiril Petrov</h3>
                                 <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac
                                     turpis egestas.Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor
@@ -32,7 +32,7 @@ export default class ForSale extends React.Component{
                                 </p>
                             </div>
                             <div className="image-three">
-                                <img src="../../gallery/gallery3.jpg" width="250px" height="500px" alt=""/>
+                                <img src="gallery/gallery3.jpg" width="250px" height="500px" alt=""/>
                                 <h3>Kiril Petrov</h3>
                                 <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac
                                     turpis egestas.Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor
@@ -40,7 +40,7 @@ export default class ForSale extends React.Component{
                                 </p>
                             </div>
                             <div className="image-four">
-                                <img src="../../gallery/gallery4.jpg" width="250px" height="500px" alt=""/>
+                                <img src="gallery/gallery4.jpg" width="250px" height="500px" alt=""/>
                                 <h3>Kiril Petrov</h3>
                                 <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac
                                     turpis egestas.Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor
@@ -48,7 +48,7 @@ export default class ForSale extends React.Component{
                                 </p>
                             </div>
                             <div className="image-five">
-                                <img src="../../gallery/gallery5.jpg" width="250px" height="500px" alt=""/>
+                                <img src="gallery/gallery5.jpg" width="250px" height="500px" alt=""/>
                                 <h3>Kiril Petrov</h3>
                                 <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac
                                     turpis egestas.Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor

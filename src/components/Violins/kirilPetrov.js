@@ -4,7 +4,7 @@ import Home from 'components/Home/home';
 
 export default class KirilPetrov extends React.Component{
     render() {
-        var divStyle = { backgroundImage: 'url(' + '../../modelPages/kikiModel.jpg' + ')' };
+        var divStyle = { backgroundImage: 'url(' + 'modelPages/kikiModel.jpg' + ')' };
         return (
             <div>
                 <div>

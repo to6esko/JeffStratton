@@ -4,7 +4,7 @@ import Home from 'components/Home/home';
 
 export default class SemiCustom extends React.Component{
     render() {
-        var divStyle = { backgroundImage: 'url(' + '../../modelPages/semiCus1.jpg' + ')' };
+        var divStyle = { backgroundImage: 'url(' + 'modelPages/semiCus1.jpg' + ')' };
         return (
             <div>
                 <div>

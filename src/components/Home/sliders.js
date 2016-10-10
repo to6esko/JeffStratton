@@ -8,31 +8,31 @@ import React from 'react';
 
 let images = [
     {
-        img:'../../pageSliders/1.jpg'
+        img:'pageSliders/1.jpg'
     },
     {
-        img:'../../pageSliders/2.jpg'
+        img:'pageSliders/2.jpg'
     },
     {
-        img:'../../pageSliders/3.jpg'
+        img:'pageSliders/3.jpg'
     },
     {
-        img:'../../pageSliders/4.jpg'
+        img:'pageSliders/4.jpg'
     },
     {
-        img:'../../pageSliders/5.jpg'
+        img:'pageSliders/5.jpg'
     },
     {
-        img:'../../pageSliders/6.jpg'
+        img:'pageSliders/6.jpg'
     },
     {
-        img:'../../pageSliders/7.jpg'
+        img:'pageSliders/7.jpg'
     },
     {
-        img:'../../pageSliders/8.jpg'
+        img:'pageSliders/8.jpg'
     },
     {
-        img:'../../pageSliders/9.jpg'
+        img:'pageSliders/9.jpg'
     }
 ]
 
