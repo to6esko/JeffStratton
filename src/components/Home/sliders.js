@@ -55,7 +55,7 @@ export default class Sliders extends React.Component {
             }
             myIndex++;
         
-            console.log('myIndex ' + myIndex);
+            //console.log('myIndex ' + myIndex);
         
             if (myIndex > self.state.links.length - 1) {
                 myIndex = 0;
@@ -74,7 +74,7 @@ export default class Sliders extends React.Component {
     render() {
         var pointedImage = this.state.links[this.state.myIndex];
         
-        console.log("pointedImage " + pointedImage.img);
+        //console.log("pointedImage " + pointedImage.img);
         
         var imageStyle = {
             backgroundImage: 'url(' + pointedImage.img + ')',
