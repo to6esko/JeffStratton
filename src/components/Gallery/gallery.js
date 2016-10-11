@@ -4,7 +4,7 @@ import Home from 'components/Home/home';
 
 export default class Gallery extends React.Component{
     render() {
-        var divStyle = { backgroundImage: 'url(' + 'pages/gallery.jpg' + ')' };
+        var divStyle = { backgroundImage: 'url(' + 'pages/galleryOpt3.jpg' + ')' };
         return (
             <div className="gallery-content">
                 <div className="section-inner">
