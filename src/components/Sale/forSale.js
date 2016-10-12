@@ -4,7 +4,7 @@ import Home from 'components/Home/home';
 
 export default class ForSale extends React.Component{
     render() {
-        var divStyle = { backgroundImage: 'url(' + 'pages/forSaleOpt2.jpg' + ')' };
+        var divStyle = { backgroundImage: 'url(' + 'pages/forsale.JPG' + ')' };
         return (
             <div className="forSale-content">
                 <div className="section-inner">
