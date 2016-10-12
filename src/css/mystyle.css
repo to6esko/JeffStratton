@@ -114,6 +114,9 @@ h1, h2, h3, h4, h5, h6,p,a {
    font-size:1.5em;
    width: 100%;
    z-index: 1;
+   /*color: #ccc394;*/
+   font-weight: 400;
+   text-shadow: 0 1px 2px #222;
 }
 
 .container_links{
@@ -146,13 +149,12 @@ a:hover{
 
 /*Violins Gypsy*/
 .gypsyHome{
-   position: relative;
-    left: 50px;
+    position: relative;
+    text-align: left;
+    font-size:1.5em;
     width: 100%;
     z-index: 1;
-    padding-top: 50px;
     font-size: 1.5em;
-    line-height: 25px;
     /*color: #ccc394;*/
     font-weight: 400;
     text-shadow: 0 1px 2px #222;
@@ -160,21 +162,21 @@ a:hover{
 
 .gypsyContent{
     position: relative;
-    left: 50px;
+    left: 5%;
     width: 40%;
     text-align: left;
     z-index: 1;
-    margin-top: 200px;
+    margin-top: 8%;
     font-size: 1.5em;
     line-height: 25px;
-    /*color: #ccc394;*/
+    /* color: #ccc394; */
     font-weight: 400;
     text-shadow: 0 1px 2px #222;
 }
 .gypsyContent h2{
    position: relative;
-   margin-left: 20px;
-   font-size:1.5em;;
+   margin-left: 5%;
+   font-size: 1.5em;
 }
 
 .gypsy{
@@ -191,34 +193,33 @@ a:hover{
 
 /*Violins Kiril Petrov*/
 .kikiHome{
-   position: relative;
-    left: 50px;
+    position: relative;
+    text-align: left;
+    font-size:1.5em;
     width: 100%;
     z-index: 1;
-    padding-top: 50px;
     font-size: 1.5em;
-    line-height: 25px;
     /*color: #ccc394;*/
     font-weight: 400;
     text-shadow: 0 1px 2px #222;
 }
 .kikiContent{
     position: relative;
-    left: 50px;
+    left: 5%;
     width: 40%;
     text-align: left;
     z-index: 1;
-    margin-top: 200px;
+    margin-top: 8%;
     font-size: 1.5em;
     line-height: 25px;
-    /*color: #ccc394;*/
+    /* color: #ccc394; */
     font-weight: 400;
     text-shadow: 0 1px 2px #222;
 }
 .kikiContent h2{
    position: relative;
-   margin-left: 20px;
-   font-size:1.5em;
+   margin-left: 5%;
+   font-size: 1.5em;
 }
 
 .kikiPetrov{
@@ -236,13 +237,12 @@ a:hover{
 
 /*Violins Robert Kantor*/
 .kantorHome{
-   position: relative;
-    left: 50px;
+    position: relative;
+    text-align: left;
+    font-size:1.5em;
     width: 100%;
     z-index: 1;
-    padding-top: 50px;
     font-size: 1.5em;
-    line-height: 25px;
     /*color: #ccc394;*/
     font-weight: 400;
     text-shadow: 0 1px 2px #222;
@@ -250,21 +250,21 @@ a:hover{
 
 .kantorContent{
     position: relative;
-    left: 50px;
+    left: 5%;
     width: 40%;
     text-align: left;
     z-index: 1;
-    margin-top: 200px;
+    margin-top: 8%;
     font-size: 1.5em;
     line-height: 25px;
-    /*color: #ccc394;*/
+    /* color: #ccc394; */
     font-weight: 400;
     text-shadow: 0 1px 2px #222;
 }
 .kantorContent h2{
    position: relative;
-   margin-left: 20px;
-   font-size:1.5em;
+   margin-left: 5%;
+   font-size: 1.5em;
 }
 
 .kantor{
@@ -284,7 +284,6 @@ a:hover{
 .semiHome{
     position: relative;
     text-align: left;
-    padding-left: 7%;
     font-size:1.5em;
     width: 100%;
     z-index: 1;
@@ -300,17 +299,17 @@ a:hover{
     width: 40%;
     text-align: left;
     z-index: 1;
-    margin-top: 200px;
+    margin-top: 8%;
     font-size: 1.5em;
     line-height: 25px;
-    /*color: #ccc394;*/
+    /* color: #ccc394; */
     font-weight: 400;
     text-shadow: 0 1px 2px #222;
 }
 .semiContent h2{
-   position: relative;
-   margin-left: 20px;
-   font-size:1.5em;
+    position: relative;
+    margin-left: 5%;
+    font-size: 1.5em;
 }
 
 .semi{
@@ -328,13 +327,12 @@ a:hover{
 
 /*Violins standard*/
 .standardHome{
-   position: relative;
-    left: 50px;
+    position: relative;
+    text-align: left;
+    font-size:1.5em;
     width: 100%;
     z-index: 1;
-    padding-top: 50px;
     font-size: 1.5em;
-    line-height: 25px;
     /*color: #ccc394;*/
     font-weight: 400;
     text-shadow: 0 1px 2px #222;
@@ -342,21 +340,21 @@ a:hover{
 
 .standardContent{
     position: relative;
-    left: 50px;
+    left: 5%;
     width: 40%;
     text-align: left;
     z-index: 1;
-    margin-top: 200px;
+    margin-top: 8%;
     font-size: 1.5em;
     line-height: 25px;
-    /*color: #ccc394;*/
+    /* color: #ccc394; */
     font-weight: 400;
     text-shadow: 0 1px 2px #222;
 }
 .standardContent h2{
    position: relative;
-   margin-left: 20px;
-   font-size:1.5em;
+    margin-left: 5%;
+    font-size: 1.5em;
 }
 
 .standard{
