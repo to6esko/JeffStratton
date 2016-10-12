@@ -33,8 +33,8 @@ export default class Vegas extends React.Component{
                     src:'pageSliders/9.jpg'
                 }
             ],
-            //animation: 'kenburns'
-            transition: 'zoomIn'        
+            animation: 'kenburns'
+            //transition: 'zoomIn'        
         });
     }
     
