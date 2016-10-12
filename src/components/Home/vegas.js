@@ -39,6 +39,6 @@ export default class Vegas extends React.Component{
     }
     
     render() {
-        return (<span ></span>);
+        return (<span></span>);
     }
 }
