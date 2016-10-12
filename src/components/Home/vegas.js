@@ -6,31 +6,31 @@ export default class Vegas extends React.Component{
         $('body').vegas({
             slides: [
                 {
-                    src:'pageSliders/opt1.jpg'
+                    src:'pageSliders/1.jpg'
                 },
                 {
-                    src:'pageSliders/opt2.jpg'
+                    src:'pageSliders/2.jpg'
                 },
                 {
-                    src:'pageSliders/opt3.jpg'
+                    src:'pageSliders/3.jpg'
                 },
                 {
-                    src:'pageSliders/opt4.jpg'
+                    src:'pageSliders/4.jpg'
                 },
                 {
-                    src:'pageSliders/opt5.jpg'
+                    src:'pageSliders/5.jpg'
                 },
                 {
-                    src:'pageSliders/opt6.jpg'
+                    src:'pageSliders/6.jpg'
                 },
                 {
-                    src:'pageSliders/opt7.jpg'
+                    src:'pageSliders/7.jpg'
                 },
                 {
-                    src:'pageSliders/opt8.jpg'
+                    src:'pageSliders/8.jpg'
                 },
                 {
-                    src:'pageSliders/opt9.jpg'
+                    src:'pageSliders/9.jpg'
                 }
             ],
             //animation: 'kenburns'
