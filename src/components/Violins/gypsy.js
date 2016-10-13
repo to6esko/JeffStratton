@@ -4,11 +4,12 @@ import Home from 'components/Home/home';
 
 export default class Gypsy extends React.Component{
     render() {
-        var divStyle = { backgroundImage: 'url(' + 'modelPages/back2.jpg' + ')' };
+        var divStyles = { backgroundImage: 'url(' + 'modelPages/back2.jpg' + ')' };
         return (
             <div>
                 <div>
-                    <span className="gypsy" style={divStyle}></span>
+                    <span className="gypsy"></span>
+                    <span className="gypsyBack" style={divStyles}></span>
                 </div>
                 <div className="gypsyHome">
                     <Link to="#/home"><Home/></Link>

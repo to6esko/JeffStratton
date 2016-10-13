@@ -4,11 +4,12 @@ import Home from 'components/Home/home';
 
 export default class SemiCustom extends React.Component{
     render() {
-        var divStyle = { backgroundImage: 'url(' + 'modelPages/semiCus1.jpg' + ')' };
+        var divStyles = { backgroundImage: 'url(' + 'modelPages/semiCus1.jpg' + ')' };
         return (
             <div>
                 <div>
-                    <span className="semi" style={divStyle}></span>
+                    <span className="semi"></span>
+                    <span className="semiBack" style={divStyles}></span>
                 </div>
                 <div className="semiHome">
                     <Link to="#/home"><Home/></Link>

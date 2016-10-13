@@ -4,11 +4,12 @@ import Home from 'components/Home/home';
 
 export default class Standard extends React.Component{
     render() {
-        var divStyle = { backgroundImage: 'url(' + 'modelPages/standard.jpg' + ')' };
+        var divStyles = { backgroundImage: 'url(' + 'modelPages/standard.jpg' + ')' };
         return (
             <div>
                 <div>
-                    <span className="standard" style={divStyle}></span>
+                    <span className="standard"></span>
+                    <span className="standardBack" style={divStyles}></span>
                 </div>
                 <div className="standardHome">
                 <Link to="#/home"><Home/></Link>
