@@ -11,7 +11,7 @@ export default class Gallery extends React.Component{
                     <span className="gallery" style={divStyle}></span>
                     <div className="galleryHome">
                         <Link to="#/home"><Home/></Link>
-                        <h2>Gallery</h2>
+                        <h3>Gallery</h3>
                     </div>
                     <div className="gallery-clearfix">
                         <div className="galleryImages">

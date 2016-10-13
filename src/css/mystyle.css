@@ -9,6 +9,7 @@ body{
     -webkit-font-smoothing: antialiased;
     color: #fff;
     -webkit-tap-highlight-color: transparent;
+    font-size: 1.5em;
 }
 
 .noScroll{
@@ -79,15 +80,20 @@ body{
 h1, h2, h3, h4, h5, h6 {
     clear: both;
 }
-h1, h2, h3, h4, h5, h6,p,a {
+ h2, h3, h4, h5, h6,p,a {
+    text-transform: uppercase;
+    
     font-family: Adobe Kaiti Std R;
 }
-
+h1{
+    font-family: Adobe Kaiti Std R;
+    font-weight: 500;
+    font-size: 3em;
+}
 .container {
     position: relative;
     width: 100%;
     z-index: 1;
-    font-size: 1.5em;
     /*color: #ccc394;*/
     color: #fff; 
     font-weight: 400;
@@ -99,23 +105,25 @@ h1, h2, h3, h4, h5, h6,p,a {
     width: 100%;
     text-align: left;
     padding-left: 7%;
+    margin-top: 10%;
+    padding-top:2%;
     z-index: 1;
     -webkit-font-smoothing: antialiased;
-    font-size: 1.5em;
     /*color: #ccc394;*/
     color: #fff; 
-    font-weight: 400;
     text-shadow: 0 1px 2px #222;
 }
 .home_title{
-   position: relative;
+   position: absolute;
    text-align: left;
    padding-left: 7%;
-   font-size:1.5em;
+   margin-top: -10%;
    width: 100%;
    z-index: 1;
+   letter-spacing: -2px;
    /*color: #ccc394;*/
-   font-weight: 400;
+   color: #fff;
+   font-weight: 900;
    text-shadow: 0 1px 2px #222;
 }
 
@@ -123,14 +131,26 @@ h1, h2, h3, h4, h5, h6,p,a {
     width: 100%;
     position:absolute;
     margin-left: -2%;
-    line-height: 35px;
+    margin-top:-15px;
 }
-.violins{
+.container_links h3{
+    font-size:27px;
+    font-weight: 100;
+    letter-spacing: -2px;
+    line-height: 10px;
+}
+.violins h3{
     position: relative;
     width: 100%;
+    font-size:27px;
+    font-weight: 100;
+    letter-spacing: -2px;
 }
 .violins_content{
     line-height: 30px;
+    font-size: 17px;
+    margin-top: -25px;
+    letter-spacing: -1px;
 }
 
 /*links decoration*/

@@ -11,7 +11,7 @@ export default class ForSale extends React.Component{
                     <span className="forSale" style={divStyle}></span>
                     <div className="forSaleHome">
                         <Link to="#/home"><Home/></Link>
-                        <h2>For Sale</h2>
+                        <h3>For Sale</h3>
                     </div>
                     <div className="gallery-clearfix">
                         <div className="galleryImages">

@@ -22,7 +22,7 @@ export default class Contact extends React.Component{
                     
                     <div className="contactList">
                         <div className="links">
-                        <h2>Links</h2>
+                        <h3>Links</h3>
                         </div>
                         <div className="contacts">
                             <h2>Contact:</h2>

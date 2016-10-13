@@ -17,9 +17,9 @@ export default class Leault extends React.Component{
                 <Violins/>
                 <div className="container_links">
                     <ul>
-                        <li><Link to="/gallery"><h2>Gallery</h2></Link></li>
-                        <li><Link to="/forSale"><h2>For Sale</h2></Link></li>
-                        <li><Link to="/contact"><h2>Contact</h2></Link></li>
+                        <li><Link to="/gallery"><h3>Gallery</h3></Link></li>
+                        <li><Link to="/forSale"><h3>For Sale</h3></Link></li>
+                        <li><Link to="/contact"><h3>Contact</h3></Link></li>
                     </ul>
                 </div>
             </div>
