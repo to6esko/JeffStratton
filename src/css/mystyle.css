@@ -318,7 +318,7 @@ a:hover{
     position: absolute;
     top: 0px;
     left: 0px;
-    background-size: cover;
+    background-size: contain;
     background-position: 50% 50%;
     background-repeat:repeat;
     z-index: 1;
