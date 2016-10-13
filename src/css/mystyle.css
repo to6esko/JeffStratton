@@ -642,7 +642,7 @@ a:hover{
     position: absolute;
     width: 100%;
     text-align: center;
-        margin-top: 10%;
+    margin-top: 10%;
     z-index: 1;
     -webkit-font-smoothing: antialiased;
     font-size: 2em;
@@ -668,7 +668,7 @@ a:hover{
     text-align:left;
     position: relative;
     display: inline-block;
-    margin-left: 95px;
+    margin-left: 90px;
 }
 
 .socialInstagram{
@@ -682,4 +682,13 @@ a:hover{
 .socialPinterest{
     background:transparent left no-repeat;
     padding: 0 0 0 40px;
+}
+
+.links{
+    bottom: 535px;
+    left: 10%;
+    position: relative;
+    display: inline-block;
+    padding-right: 35px;
+    border-bottom: 1px solid #ccc394;
 }

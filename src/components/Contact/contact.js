@@ -19,7 +19,11 @@ export default class Contact extends React.Component{
                     <div className="leaultContact">
                         <Leault />
                     </div>
+                    
                     <div className="contactList">
+                        <div className="links">
+                        <h2>Links</h2>
+                        </div>
                         <div className="contacts">
                             <h2>Contact:</h2>
                             <p>
