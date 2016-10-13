@@ -80,7 +80,7 @@ h1, h2, h3, h4, h5, h6 {
     clear: both;
 }
 h1, h2, h3, h4, h5, h6,p,a {
-    font-family: serif;
+    font-family: monospace;
 }
 
 .container {
@@ -98,10 +98,10 @@ h1, h2, h3, h4, h5, h6,p,a {
     position: relative;
     width: 100%;
     text-align: left;
-    padding-left: 10%;
+    padding-left: 15%;
     z-index: 1;
     -webkit-font-smoothing: antialiased;
-    font-size: 1.5em;
+    font-size: 2em;
     /*color: #ccc394;*/
     color: #fff; 
     font-weight: 400;
@@ -502,6 +502,7 @@ a:hover{
    letter-spacing: 0;  
    padding: 0 0 0 10px;
    word-wrap: break-word;
+   font-size: 1.2em;
 }
 
 .image-one{
@@ -572,7 +573,7 @@ a:hover{
     padding-left: 10%;
     z-index: 1;
     -webkit-font-smoothing: antialiased;
-    font-size: 1.5em;
+    font-size: 2em;
     /*color: #ccc394;*/
     color: #fff; 
     font-weight: 400;
@@ -587,7 +588,7 @@ a:hover{
         margin-top: 10%;
     z-index: 1;
     -webkit-font-smoothing: antialiased;
-    font-size: 1.5em;
+    font-size: 2em;
     line-height: 10px;
     /*color: #ccc394;*/
     color: #fff; 
@@ -604,7 +605,6 @@ a:hover{
 .contacts p{
     margin-top: 20px;
     text-align: left;
-    font-size: 1em;
     text-shadow: 0 1px 2px #222;
 }
 .social{
