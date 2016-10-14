@@ -25,7 +25,7 @@ export default class Contact extends React.Component{
                         <h3>Links</h3>
                         </div>
                         <div className="contacts">
-                            <h2>Contact:</h2>
+                            <h3>Contact:</h3>
                             <p>
                                 Phone: 760-444-4161
                         </p>
@@ -37,7 +37,7 @@ export default class Contact extends React.Component{
                             </p>
                         </div>
                         <div className="social">
-                            <h2>Social:</h2>
+                            <h3>Social:</h3>
                             <p>
                                 <a href="https://www.facebook.com/Stratton-Violin-356861030998166/" style={faceBookImg} className="socialFaceBook" target="_blank">FaceBook</a>
                             </p>

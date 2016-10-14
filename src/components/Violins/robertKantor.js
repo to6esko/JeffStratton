@@ -15,7 +15,7 @@ export default class RobertKantor extends React.Component{
                     <Link to="#/home"><Home/></Link>
                  </div>
                 <div className="kantorContent">
-                    <h2>Robert Kantor</h2>
+                    <h3>Robert Kantor</h3>
                     <p>
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit.In eleifend ipsum leo.Fusce sit amet libero ac quam fringilla tempus nec nec massa.Cras euismod, dui varius posuere consequat, mi augue tristique nisl, eu mattis velit justo ac velit.Proin viverra quam vel aliquam lacinia.Quisque aliquet tincidunt faucibus.
                     </p>

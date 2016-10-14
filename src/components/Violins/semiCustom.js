@@ -15,12 +15,13 @@ export default class SemiCustom extends React.Component{
                     <Link to="#/home"><Home/></Link>
                     </div>
                 <div className="semiContent">
-                    <h2>Semi Custom</h2>
+                    <h3>The Semi-Custom Body</h3>
                     <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.In eleifend ipsum leo.Fusce sit amet libero ac quam fringilla tempus nec nec massa.Cras euismod, dui varius posuere consequat, mi augue tristique nisl, eu mattis velit justo ac velit.Proin viverra quam vel aliquam lacinia.Quisque aliquet tincidunt faucibus.
+                        These Bodies are hand carved and detailed....not a 
+                        one is exactly the same.
                     </p>
                     <p>
-                        Cras id lorem nibh.Maecenas nec ornare nulla, ornare pretium dolor.Maecenas quis scelerisque nisl.Praesent efficitur, urna sit amet facilisis lacinia, elit odio porta leo, in pharetra neque odio nec elit.Praesent pretium ipsum mauris, et porttitor sapien varius in.Donec scelerisque risus quis fermentum finibus.Duis consectetur euismod vestibulum.
+                        Check aut the Gallery page for some crazy ideas.
                     </p>
                 </div>
             </div>
