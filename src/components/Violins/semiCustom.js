@@ -15,14 +15,27 @@ export default class SemiCustom extends React.Component{
                     <Link to="#/home"><Home/></Link>
                     </div>
                 <div className="semiContent">
-                    <h3>The Semi-Custom Body</h3>
-                    <p>
-                        These Bodies are hand carved and detailed....not a 
+                    <h3 className="price1">The</h3>
+                    <h3 className="price">Semi - Custom  Body</h3>
+                    <p className="name">
+                        These Bodies are hand carved and detailed.... not a <br/>
                         one is exactly the same.
                     </p>
-                    <p>
-                        Check aut the Gallery page for some crazy ideas.
+                    <p className="name">
+                        Check aut the Gallery page for some crazy ideas....
                     </p>
+                    <div className="text">
+                        <br/>
+                        <p>Solid wood Body</p>
+                        <p>Hand carved maple neck</p>
+                        <p>Ebony finger board</p>
+                        <p>Ebony pegs and chinrest</p>
+                        <p>Solid brass "Stratton Violin" hardware</p>
+                        <p>Your choice of 4 or 5 string</p>
+                        <p>Barbera twin hybrid bridge</p>
+                        <br/>
+                    </div>
+                    <h3 className="price1">4 String $2800.00 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 5 String $3000.00</h3>
                 </div>
             </div>
         );
