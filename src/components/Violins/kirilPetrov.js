@@ -18,8 +18,7 @@ export default class KirilPetrov extends React.Component{
                     <h3 className="price">The</h3>
                     <h3 className="price1">Kiril Petrov Body</h3>
                     <p className="name">
-                        These is hot inveh to be said..... they are <br/>bit of this wovlot.
-                        
+                        They speak for them selfs... they are out <br/>of this world.
                     </p>
                     <p className="name">
                         Contact me for more info.

@@ -21,7 +21,7 @@ export default class Standard extends React.Component{
                         This is the production model of my line <br />of violins.
                     </p>
                     <p className="name">
-                        Also available mith custom finishes.
+                        Also available with custom finishes.
                     </p>
                     <div className="text">
                         <p>Solid wood Body</p>

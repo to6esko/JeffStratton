@@ -20,7 +20,7 @@ export default class RobertKantor extends React.Component{
                     <p className="name">
                         These violins are custom order only.
                     </p>
-                    <p className="name"> Contact me for to links</p>
+                    <p className="name"> Contact me for more info.</p>
                 </div>
             </div>
         );

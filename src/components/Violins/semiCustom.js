@@ -22,7 +22,7 @@ export default class SemiCustom extends React.Component{
                         one is exactly the same.
                     </p>
                     <p className="name">
-                        Check aut the Gallery page for some crazy ideas....
+                        Check out the Gallery page for some crazy ideas....
                     </p>
                     <div className="text">
                         <p>Solid wood Body</p>

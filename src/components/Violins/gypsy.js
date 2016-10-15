@@ -21,7 +21,7 @@ export default class Gypsy extends React.Component{
                         A Clasik Violin Body with an edje.
                     </p>
                     <p className="name">
-                        Hand carved and distvessed for the old <br/>vistick look.
+                        Hand carved and distressed for the old <br/>wood look.
                     </p>
                     <div className="text">
                         <p>Solid wood Body</p>
