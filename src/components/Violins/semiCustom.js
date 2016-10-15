@@ -33,7 +33,7 @@ export default class SemiCustom extends React.Component{
                         <p>Your choice of 4 or 5 string</p>
                         <p>Barbera twin hybrid bridge</p>
                     </div>
-                    <h3 className="price2">4 String $2800.00 &nbsp;&nbsp; 5 String $3000.00</h3>
+                    <h3 className="price2">4 String $2800.00 &nbsp;&nbsp;&nbsp; 5 String $3000.00</h3>
                 </div>
             </div>
         );
