@@ -15,12 +15,14 @@ export default class KirilPetrov extends React.Component{
                     <Link to="#/home"><Home/></Link>
                 </div>
                 <div className="kikiContent">
-                    <h3>Kiril Petrov</h3>
-                    <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.In eleifend ipsum leo.Fusce sit amet libero ac quam fringilla tempus nec nec massa.Cras euismod, dui varius posuere consequat, mi augue tristique nisl, eu mattis velit justo ac velit.Proin viverra quam vel aliquam lacinia.Quisque aliquet tincidunt faucibus.
+                    <h3 className="price">The</h3>
+                    <h3 className="price1">Kiril Petrov Body</h3>
+                    <p className="name">
+                        These is hot inveh to be said..... they are <br/>bit of this wovlot.
+                        
                     </p>
-                    <p>
-                        Cras id lorem nibh.Maecenas nec ornare nulla, ornare pretium dolor.Maecenas quis scelerisque nisl.Praesent efficitur, urna sit amet facilisis lacinia, elit odio porta leo, in pharetra neque odio nec elit.Praesent pretium ipsum mauris, et porttitor sapien varius in.Donec scelerisque risus quis fermentum finibus.Duis consectetur euismod vestibulum.
+                    <p className="name">
+                        Contact me for more info.
                     </p>
                 </div>
             </div>
