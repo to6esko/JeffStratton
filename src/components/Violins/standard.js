@@ -18,10 +18,10 @@ export default class Standard extends React.Component{
                     <h3 className="price">The</h3>
                     <h3 className="price1">Standard Body</h3>
                     <p className="name">
-                        This is the production <br />model of my line of violins.
+                        This is the production model of my <br />line of violins.
                     </p>
                     <p className="name">
-                        Also available mith <br />custom  finishes.
+                        Also available mith custom finishes.
                     </p>
                     <div className="text">
                         <p>Solid wood Body</p>
