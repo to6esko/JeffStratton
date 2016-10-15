@@ -17,23 +17,23 @@ export default class Gallery extends React.Component{
                         <div className="galleryImages">
                             <div className="image-one">
                                 <img src="gallery/gallery1.jpg" width="230px" height="350px" alt=""/>
-                                <h3 className="galleryName">Kiril Petrov</h3>
+                                
                             </div>
                             <div className="image-two">
                                 <img src="gallery/gallery2.jpg" width="230px" height="350px" alt=""/>
-                                <h3 className="galleryName">Kiril Petrov</h3>
+                                
                             </div>
                             <div className="image-three">
                                 <img src="gallery/gallery3.jpg" width="230px" height="350px" alt=""/>
-                                <h3 className="galleryName">Kiril Petrov</h3>
+                                
                             </div>
                             <div className="image-four">
                                 <img src="gallery/gallery4.jpg" width="230px" height="350px" alt=""/>
-                                <h3 className="galleryName">Kiril Petrov</h3>
+                               
                             </div>
                             <div className="image-five">
                                 <img src="gallery/gallery5.jpg" width="230px" height="350px" alt=""/>
-                                <h3 className="galleryName">Kiril Petrov</h3>
+                                
                             </div>
                         </div>
                     </div>

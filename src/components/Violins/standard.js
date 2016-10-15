@@ -15,13 +15,26 @@ export default class Standard extends React.Component{
                 <Link to="#/home"><Home/></Link>
                 </div>
                 <div className="standardContent">
-                    <h3>Standard</h3>
-                    <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.In eleifend ipsum leo.Fusce sit amet libero ac quam fringilla tempus nec nec massa.Cras euismod, dui varius posuere consequat, mi augue tristique nisl, eu mattis velit justo ac velit.Proin viverra quam vel aliquam lacinia.Quisque aliquet tincidunt faucibus.
+                    <h3 className="price1">The</h3>
+                    <h3 className="price">Standard  Body</h3>
+                    <p className="name">
+                        This is the production
                     </p>
-                    <p>
-                        Cras id lorem nibh.Maecenas nec ornare nulla, ornare pretium dolor.Maecenas quis scelerisque nisl.Praesent efficitur, urna sit amet facilisis lacinia, elit odio porta leo, in pharetra neque odio nec elit.Praesent pretium ipsum mauris, et porttitor sapien varius in.Donec scelerisque risus quis fermentum finibus.Duis consectetur euismod vestibulum.
+                    <p className="name">
+                        Check aut the Gallery page for some crazy ideas....
                     </p>
+                    <div className="text">
+                        <br/>
+                        <p>Solid wood Body</p>
+                        <p>Hand carved maple neck</p>
+                        <p>Ebony finger board</p>
+                        <p>Ebony pegs and chinrest</p>
+                        <p>Solid brass "Stratton Violin" hardware</p>
+                        <p>Your choice of 4 or 5 string</p>
+                        <p>Barbera twin hybrid bridge</p>
+                        <br/>
+                    </div>
+                    <h3 className="price1">4 String $2800.00 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 5 String $3000.00</h3>
                 </div>
             </div>    
         );
