@@ -87,7 +87,6 @@ h1, h2, h3, h4, h5, h6,p,a {
 h1{
     text-transform: none;
     font-family: Adobe Kaiti Std R;
-    /*font-family: Verdana, Geneva, Tahoma, sans-serif;*/
     font-weight: 500;
     font-size: 3em;
 }
@@ -97,7 +96,9 @@ h3{
     font-weight: 100;
     letter-spacing: -2px;
 }
-
+p{
+    font-family: Adobe Kaiti Std R;
+}
 .container {
     position: relative;
     width: 100%;
@@ -588,16 +589,9 @@ a:hover{
     border-radius: 5px;
     border-color:black;
 }
-.galleryImages p {
-   color: white;  
-   letter-spacing: 0;  
-   padding: 0 0 0 10px;
-   word-wrap: break-word;
-    text-align: left;
-    font-size: 17px;
-    text-shadow: 0 1px 2px #222;
+.galleryName{
+    text-align: center;
 }
-
 .image-one{
     display: inline-block;
     position: relative;

@@ -33,7 +33,7 @@ export default class Contact extends React.Component{
                                 Jeff Stratton
                             </p>
                             <p>
-                                Email: jeff@strattonviolin.com
+                                Email: strattonviolin@gmail.com
                             </p>
                         </div>
                         <div className="social">
@@ -42,7 +42,7 @@ export default class Contact extends React.Component{
                                 <a href="https://www.facebook.com/Stratton-Violin-356861030998166/" style={faceBookImg} className="socialFaceBook" target="_blank">FaceBook</a>
                             </p>
                             <p>
-                                <a href="https://www.instagram.com/p/BBY5x-RNTGN/" style={instaramImg} className="socialInstagram" target="_blank">Instagram</a>
+                                <a href="https://www.instagram.com/strattonviolin/?hl=en" style={instaramImg} className="socialInstagram" target="_blank">Instagram</a>
                             </p>
                             <p>
                                 <a href="https://www.pinterest.com/pin/458030224579731449/" style={pinterestImg} className="socialPinterest" target="_blank">Pinterest</a>
