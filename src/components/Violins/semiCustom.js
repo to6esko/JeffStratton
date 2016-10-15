@@ -25,7 +25,6 @@ export default class SemiCustom extends React.Component{
                         Check aut the Gallery page for some crazy ideas....
                     </p>
                     <div className="text">
-                        <br/>
                         <p>Solid wood Body</p>
                         <p>Hand carved maple neck</p>
                         <p>Ebony finger board</p>
@@ -33,9 +32,8 @@ export default class SemiCustom extends React.Component{
                         <p>Solid brass "Stratton Violin" hardware</p>
                         <p>Your choice of 4 or 5 string</p>
                         <p>Barbera twin hybrid bridge</p>
-                        <br/>
                     </div>
-                    <h3 className="price1">4 String $2800.00 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 5 String $3000.00</h3>
+                    <h3 className="price1">4 String $2800.00 &nbsp;&nbsp; 5 String $3000.00</h3>
                 </div>
             </div>
         );
