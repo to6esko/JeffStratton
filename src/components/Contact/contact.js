@@ -8,7 +8,8 @@ export default class Contact extends React.Component{
         let divStyle = { backgroundImage: 'url(' + 'pages/contactLinks.jpg' + ')' };
         let instaramImg = { backgroundImage: 'url(' + 'icons/Instagram-icon.png' + ')', width: 25, height: 25 };
         let faceBookImg = { backgroundImage: 'url(' + 'icons/facebook-icon.png' + ')', width: 25, height: 25 };
-        let pinterestImg = { backgroundImage: 'url(' + 'icons/pinterest-icon.png' + ')', width: 25,height:25};
+        let pinterestImg = { backgroundImage: 'url(' + 'icons/pinterest-icon.png' + ')', width: 25, height: 25 };
+        let youtubeImg = { backgroundImage: 'url(' + 'icons/youtube-icon.png' + ')', width: 25,height:25};
         return (
             <div>
                 <div className="section-inner">
@@ -33,8 +34,14 @@ export default class Contact extends React.Component{
                                 Jeff Stratton
                             </p>
                             <p>
-                                Email: strattonviolin@gmail.com
+                                Email: 
                             </p>
+                            <p>
+                                strattonviolin@gmail.com
+                                </p>
+                            <p>
+                                jeff@strattonviolin.com
+                                </p>
                         </div>
                         <div className="social">
                             <h3>Social</h3>
@@ -46,6 +53,9 @@ export default class Contact extends React.Component{
                             </p>
                             <p>
                                 <a href="https://www.pinterest.com/pin/458030224579731449/" style={pinterestImg} className="socialPinterest" target="_blank">Pinterest</a>
+                            </p>
+                            <p>
+                                <a href="https://www.youtube.com/user/strattonviolin/videos" style={youtubeImg} className="socialYoutube" target="_blank">You Tube</a>
                             </p>
                         </div>
                     </div>
