@@ -4,7 +4,7 @@ import Home from 'components/Home/home';
 
 export default class Standard extends React.Component{
     render() {
-        var divStyles = { backgroundImage: 'url(' + 'modelPages/standard.jpg' + ')' };
+        var divStyles = { backgroundImage: 'url(' + 'modelPages/standard2.jpg' + ')' };
         return (
             <div>
                 <div>
