@@ -4,11 +4,11 @@ import Home from 'components/Home/home';
 
 export default class ForSale extends React.Component{
     render() {
-        var divStyle = { backgroundImage: 'url(' + 'pages/forsale.JPG' + ')' };
+        var divStyle = { backgroundImage: 'url(' + 'pages/contactLinks.jpg' + ')' };
         return (
             <div className="forSale-content">
                 <div className="section-inner">
-                    <span className="forSale"></span>
+                    <span className="forSale" style={divStyle}></span>
                     <div className="forSaleHome">
                         <Link to="#/home"><Home/></Link>
                         <h3>For Sale</h3>

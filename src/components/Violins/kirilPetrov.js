@@ -4,7 +4,7 @@ import Home from 'components/Home/home';
 
 export default class KirilPetrov extends React.Component{
     render() {
-        var divStyles = { backgroundImage: 'url(' + 'modelPages/kikiModel.jpg' + ')' };
+        var divStyles = { backgroundImage: 'url(' + 'modelPages/violin.jpg' + ')' };
         return (
             <div>
                 <div>
@@ -18,7 +18,7 @@ export default class KirilPetrov extends React.Component{
                     <h3 className="price">The</h3>
                     <h3 className="price1">Kiril Petrov Body</h3>
                     <p className="name">
-                        They speak for themselfs... they are out <br/>of this world.
+                        They speak for themselves... they are out <br/>of this world.
                     </p>
                     <p className="name">
                         Contact me for more info.

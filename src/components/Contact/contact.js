@@ -5,7 +5,7 @@ import Leault from 'components/leault';
 
 export default class Contact extends React.Component{
     render() {
-        let divStyle = { backgroundImage: 'url(' + 'pages/contactLinks.jpg' + ')' };
+        let divStyle = { backgroundImage: 'url(' + 'pages/forsale.JPG' + ')' };
         let instaramImg = { backgroundImage: 'url(' + 'icons/Instagram-icon.png' + ')', width: 25, height: 25 };
         let faceBookImg = { backgroundImage: 'url(' + 'icons/facebook-icon.png' + ')', width: 25, height: 25 };
         let pinterestImg = { backgroundImage: 'url(' + 'icons/pinterest-icon.png' + ')', width: 25, height: 25 };
@@ -13,7 +13,7 @@ export default class Contact extends React.Component{
         return (
             <div>
                 <div className="section-inner">
-                        <span className="contact"></span>
+                        <span className="contact" style={divStyle}></span>
                     <div className="contactHome">
                         <Link to="#/home"><Home /></Link>
                     </div>
