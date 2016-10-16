@@ -18,7 +18,7 @@ export default class Gypsy extends React.Component{
                     <h3 className="price">The</h3>
                     <h3 className="price1">Gypsy Body</h3>
                     <p className="name">
-                        A Classik Violin Body with an edge.
+                        A Classic Violin Body with an edge.
                     </p>
                     <p className="name">
                         Hand carved and distressed for the old <br/>wood look.

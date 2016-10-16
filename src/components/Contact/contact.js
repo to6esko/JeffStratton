@@ -13,7 +13,7 @@ export default class Contact extends React.Component{
         return (
             <div>
                 <div className="section-inner">
-                        <span className="contact" style={divStyle}></span>
+                        <span className="contact"></span>
                     <div className="contactHome">
                         <Link to="#/home"><Home /></Link>
                     </div>

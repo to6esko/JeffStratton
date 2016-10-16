@@ -8,7 +8,7 @@ export default class ForSale extends React.Component{
         return (
             <div className="forSale-content">
                 <div className="section-inner">
-                    <span className="forSale" style={divStyle}></span>
+                    <span className="forSale"></span>
                     <div className="forSaleHome">
                         <Link to="#/home"><Home/></Link>
                         <h3>For Sale</h3>
