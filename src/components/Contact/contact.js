@@ -34,7 +34,7 @@ export default class Contact extends React.Component{
                             <a href="http://www.kantorguitars.com/" target="_blank">Kantor Guitars</a>
                             </p>
                             <p>
-                            <a href="http://www.barberatransducers.com/" target="_blank">Barbera Transducer systems</a>
+                            <a href="http://www.barberatransducers.com/" target="_blank">Barbera Transducer</a>
                             </p>
                             <p>
                             <a href="http://svisound.com/index.php?lang=en" target="_blank">SviSound</a>
