@@ -32,7 +32,7 @@ export default class Standard extends React.Component{
                         <p>Your choice of 4 or 5 string</p>
                         <p>Barbera twin hybrid bridge</p>
                     </div>
-                    <h3 className="price2">4 String $2000.00 &nbsp;&nbsp;&nbsp; 5 String $2200.00</h3>
+                    <h3 className="price">4 String $2000.00 &nbsp;&nbsp;&nbsp; 5 String $2200.00</h3>
                 </div>
             </div>    
         );
