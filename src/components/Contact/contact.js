@@ -23,7 +23,33 @@ export default class Contact extends React.Component{
                     
                     <div className="contactList">
                         <div className="links">
-                        <h3>Links</h3>
+                            <h3>Links</h3>
+                        <p>
+                            <a href="http://www.kdbasses.com/" target="_blank">KD Basses</a>
+                            </p>
+                            <p>
+                            <a href="http://www.jampedals.com/" target="_blank">Jam Pedals</a>
+                            </p>
+                            <p>
+                            <a href="http://www.kantorguitars.com/" target="_blank">Kantor Guitars</a>
+                            </p>
+                            <p>
+                            <a href="http://www.barberatransducers.com/" target="_blank">Barbera Transducer systems</a>
+                            </p>
+                            <p>
+                            <a href="http://svisound.com/index.php?lang=en" target="_blank">SviSound</a>
+                            </p>
+                        </div>
+                        <div className="dealers">
+                            <h3>Dealers</h3>
+                        <p>
+                            <a href="http://www.electricviolinshop.com/skull.html" target="_blank">Electric Violin Shop</a>
+                            </p>
+                        <p>USA</p>
+                            <p>
+                            <a href="http://www.kurosawaviolin.com/evn_bass/skull_vn/index.html" target="_blank">T.Kurosawa & Co</a>
+                            </p>
+                            <p>Japan</p>
                         </div>
                         <div className="contacts">
                             <h3>Contact</h3>
