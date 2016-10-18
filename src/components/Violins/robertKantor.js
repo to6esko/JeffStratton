@@ -6,7 +6,7 @@ export default class RobertKantor extends React.Component{
     render() {
         var divStyles = { backgroundImage: 'url(' + 'modelPages/kantor1.jpg' + ')' };
         return (
-            <div>
+            <div className="section-inner">
                 <div>
                     <span className="kantor"></span>
                     <span className="kantorBack" style={divStyles}></span>

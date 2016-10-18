@@ -6,7 +6,7 @@ export default class KirilPetrov extends React.Component{
     render() {
         var divStyles = { backgroundImage: 'url(' + 'modelPages/violin.jpg' + ')' };
         return (
-            <div>
+            <div className="section-inner">
                 <div>
                     <span className="kikiPetrov"></span>
                     <span className="kikiBack" style={divStyles}></span>
