@@ -16,23 +16,31 @@ export default class ForSale extends React.Component{
                     <div className="gallery-clearfix">
                         <div className="galleryImages">
                             <div className="image-one">
-                                <img src="img/gallery/gallery1.jpg" alt=""/>
+                                <img src="img/gallery/back2.jpg" alt=""/>
                                 
                             </div>
                             <div className="image-two">
-                                <img src="img/gallery/gallery2.jpg"  alt=""/>
+                                <img src="img/gallery/galery3.jpg" alt=""/>
                                 
                             </div>
                             <div className="image-three">
-                                <img src="img/gallery/gallery3.jpg"  alt=""/>
+                                <img src="img/gallery/galery2.jpg" alt=""/>
                                 
                             </div>
                             <div className="image-four">
-                                <img src="img/gallery/gallery4.jpg"  alt=""/>
+                                <img src="img/gallery/gallery5.jpg" alt=""/>
                                 
                             </div>
                             <div className="image-five">
-                                <img src="img/gallery/gallery5.jpg"  alt=""/>
+                                <img src="img/gallery/deal2.jpg"  alt=""/>
+                                
+                            </div>
+                            <div className="image-six">
+                                <img src="img/gallery/galery1.jpg"  alt=""/>
+                                
+                            </div>
+                            <div className="image-seven">
+                                <img src="img/gallery/galery4.jpg"  alt=""/>
                                 
                             </div>
                         </div>
