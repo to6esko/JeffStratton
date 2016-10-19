@@ -4,7 +4,7 @@ import Home from 'components/Home/home';
 
 export default class KirilPetrov extends React.Component{
     render() {
-        var divStyles = { backgroundImage: 'url(' + 'modelPages/violin.jpg' + ')' };
+        var divStyles = { backgroundImage: 'url(' + 'img/modelPages/violin.jpg' + ')' };
         return (
             <div className="section-inner">
                 <div>

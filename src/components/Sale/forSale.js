@@ -4,7 +4,7 @@ import Home from 'components/Home/home';
 
 export default class ForSale extends React.Component{
     render() {
-        var divStyle = { backgroundImage: 'url(' + 'pages/contactLinks.jpg' + ')' };
+        var divStyle = { backgroundImage: 'url(' + 'img/pages/contactLinks.jpg' + ')' };
         return (
             <div className="forSale-content">
                 <div className="section-inner">
@@ -16,23 +16,23 @@ export default class ForSale extends React.Component{
                     <div className="gallery-clearfix">
                         <div className="galleryImages">
                             <div className="image-one">
-                                <img src="gallery/gallery1.jpg" width="230px" height="350px" alt=""/>
+                                <img src="img/gallery/gallery1.jpg" alt=""/>
                                 
                             </div>
                             <div className="image-two">
-                                <img src="gallery/gallery2.jpg" width="230px" height="350px" alt=""/>
+                                <img src="img/gallery/gallery2.jpg"  alt=""/>
                                 
                             </div>
                             <div className="image-three">
-                                <img src="gallery/gallery3.jpg" width="230px" height="350px" alt=""/>
+                                <img src="img/gallery/gallery3.jpg"  alt=""/>
                                 
                             </div>
                             <div className="image-four">
-                                <img src="gallery/gallery4.jpg" width="230px" height="350px" alt=""/>
+                                <img src="img/gallery/gallery4.jpg"  alt=""/>
                                 
                             </div>
                             <div className="image-five">
-                                <img src="gallery/gallery5.jpg" width="230px" height="350px" alt=""/>
+                                <img src="img/gallery/gallery5.jpg"  alt=""/>
                                 
                             </div>
                         </div>

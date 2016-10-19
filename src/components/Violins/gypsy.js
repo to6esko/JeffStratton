@@ -4,7 +4,7 @@ import Home from 'components/Home/home';
 
 export default class Gypsy extends React.Component{
     render() {
-        var divStyles = { backgroundImage: 'url(' + 'modelPages/back2.jpg' + ')' };
+        var divStyles = { backgroundImage: 'url(' + 'img/modelPages/back2.jpg' + ')' };
         return (
             <div className="section-inner">
                 <div>

@@ -4,7 +4,7 @@ import Home from 'components/Home/home';
 
 export default class Gallery extends React.Component{
     render() {
-        var divStyle = { backgroundImage: 'url(' + 'pages/gallery.jpg' + ')' };
+        var divStyle = { backgroundImage: 'url(' + 'img/pages/gallery.jpg' + ')' };
         return (
             <div className="gallery-content">
                 <div className="section-inner">
@@ -16,23 +16,31 @@ export default class Gallery extends React.Component{
                     <div className="gallery-clearfix">
                         <div className="galleryImages">
                             <div className="image-one">
-                                <img src="gallery/gallery1.jpg" width="230px" height="350px" alt=""/>
+                                <img src="img/gallery/back2.jpg" alt=""/>
                                 
                             </div>
                             <div className="image-two">
-                                <img src="gallery/gallery2.jpg" width="230px" height="350px" alt=""/>
+                                <img src="img/gallery/galery3.jpg" alt=""/>
                                 
                             </div>
                             <div className="image-three">
-                                <img src="gallery/gallery3.jpg" width="230px" height="350px" alt=""/>
+                                <img src="img/gallery/galery2.jpg" alt=""/>
                                 
                             </div>
                             <div className="image-four">
-                                <img src="gallery/gallery4.jpg" width="230px" height="350px" alt=""/>
+                                <img src="img/gallery/gallery5.jpg" alt=""/>
                                
                             </div>
                             <div className="image-five">
-                                <img src="gallery/gallery5.jpg" width="230px" height="350px" alt=""/>
+                                <img src="img/gallery/deal2.jpg"  alt=""/>
+                                
+                            </div>
+                            <div className="image-six">
+                                <img src="img/gallery/galery1.jpg"  alt=""/>
+                                
+                            </div>
+                            <div className="image-seven">
+                                <img src="img/gallery/galery4.jpg"  alt=""/>
                                 
                             </div>
                         </div>
