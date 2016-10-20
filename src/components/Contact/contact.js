@@ -5,7 +5,7 @@ import Leault from 'components/leault';
 
 export default class Contact extends React.Component{
     render() {
-        let divStyle = { backgroundImage: 'url(' + 'img/pages/forsale.JPG' + ')' };
+        let divStyle = { backgroundImage: 'url(' + 'img/pagesOpt/forsale.JPG' + ')' };
         let instaramImg = { backgroundImage: 'url(' + 'img/icons/Instagram-icon.png' + ')', width: 25, height: 25 };
         let faceBookImg = { backgroundImage: 'url(' + 'img/icons/facebook-icon.png' + ')', width: 25, height: 25 };
         let pinterestImg = { backgroundImage: 'url(' + 'img/icons/pinterest-icon.png' + ')', width: 25, height: 25 };

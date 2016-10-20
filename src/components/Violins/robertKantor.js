@@ -4,7 +4,7 @@ import Home from 'components/Home/home';
 
 export default class RobertKantor extends React.Component{
     render() {
-        var divStyles = { backgroundImage: 'url(' + 'img/modelPages/kantor1.jpg' + ')' };
+        var divStyles = { backgroundImage: 'url(' + 'img/modelPagesOpt/kantor1.jpg' + ')' };
         return (
             <div className="section-inner">
                 <div>
