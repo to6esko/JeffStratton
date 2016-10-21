@@ -9,12 +9,12 @@ export default class RobertKantor extends React.Component{
             <div className="section-inner">
                 <div>
                     <span className="kantor"></span>
-                    <span className="kantorBack" style={divStyles}></span>
+                    <span className="back" style={divStyles}></span>
                 </div>
-                <div className="kantorHome">
+                <div className="modelHome">
                     <Link to="#/home"><Home/></Link>
                  </div>
-                <div className="kantorContent">
+                <div className="content">
                     <h3 className="price">The</h3>
                     <h3 className="price1">Robert Kantor Body</h3>
                     <p className="name">

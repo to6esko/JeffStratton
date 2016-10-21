@@ -9,12 +9,12 @@ export default class KirilPetrov extends React.Component{
             <div className="section-inner">
                 <div>
                     <span className="kikiPetrov"></span>
-                    <span className="kikiBack" style={divStyles}></span>
+                    <span className="back" style={divStyles}></span>
                 </div>
-                <div className="kikiHome">
+                <div className="modelHome">
                     <Link to="#/home"><Home/></Link>
                 </div>
-                <div className="kikiContent">
+                <div className="content">
                     <h3 className="price">The</h3>
                     <h3 className="price1">Kiril Petrov Body</h3>
                     <p className="name">

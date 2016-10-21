@@ -9,12 +9,12 @@ export default class SemiCustom extends React.Component{
             <div className="section-inner">
                 <div>
                     <span className="semi"></span>
-                    <span className="semiBack" style={divStyles}></span>
+                    <span className="back" style={divStyles}></span>
                 </div>
-                <div className="semiHome">
+                <div className="modelHome">
                     <Link to="#/home"><Home/></Link>
                     </div>
-                <div className="semiContent">
+                <div className="content">
                     <h3 className="price">The</h3>
                     <h3 className="price1">Semi - Custom  Body</h3>
                     <p className="name">

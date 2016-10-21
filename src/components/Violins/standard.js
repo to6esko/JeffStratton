@@ -9,12 +9,12 @@ export default class Standard extends React.Component{
             <div className="section-inner">
                 <div>
                     <span className="standard"></span>
-                    <span className="standardBack" style={divStyles}></span>
+                    <span className="back" style={divStyles}></span>
                 </div>
-                <div className="standardHome">
+                <div className="modelHome">
                 <Link to="#/home"><Home/></Link>
                 </div>
-                <div className="standardContent">
+                <div className="content">
                     <h3 className="price">The</h3>
                     <h3 className="price1">Standard Body</h3>
                     <p className="name">

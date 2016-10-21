@@ -9,12 +9,12 @@ export default class Gypsy extends React.Component{
             <div className="section-inner">
                 <div>
                     <span className="gypsy"></span>
-                    <span className="gypsyBack" style={divStyles}></span>
+                    <span className="back" style={divStyles}></span>
                 </div>
-                <div className="gypsyHome">
+                <div className="modelHome">
                     <Link to="#/home"><Home/></Link>
                     </div>
-                <div className="gypsyContent">
+                <div className="content">
                     <h3 className="price">The</h3>
                     <h3 className="price1">Gypsy Body</h3>
                     <p className="name">
