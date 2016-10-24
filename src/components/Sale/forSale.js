@@ -69,7 +69,7 @@ export default class ForSale extends React.Component {
                     <span className="gallery" style={divStyle}></span>
                     <div className="galleryHome">
                         <Link to="#/home"><Home /></Link>
-                        <h3>Gallery</h3>
+                        <h3>For Sale</h3>
                     </div>
                 </div>
                 <div className="gallery-clearfix">
@@ -99,31 +99,31 @@ export default class ForSale extends React.Component{
                     </div>
                     <div className="gallery-clearfix">
                         <div className="galleryImages">
-                            <div className="image-one">
+                            <div className="image">
                                 <img src="img/galleryOpt/back2.jpg" alt=""/>
                                 
                             </div>
-                            <div className="image-two">
+                            <div className="image">
                                 <img src="img/galleryOpt/galery3.jpg" alt=""/>
                                 
                             </div>
-                            <div className="image-three">
+                            <div className="image">
                                 <img src="img/galleryOpt/galery2.jpg" alt=""/>
                                 
                             </div>
-                            <div className="image-four">
+                            <div className="image">
                                 <img src="img/galleryOpt/galery5.jpg" alt=""/>
                                 
                             </div>
-                            <div className="image-five">
+                            <div className="image">
                                 <img src="img/galleryOpt/deal2.jpg"  alt=""/>
                                 
                             </div>
-                            <div className="image-six">
+                            <div className="image">
                                 <img src="img/galleryOpt/galery1.jpg"  alt=""/>
                                 
                             </div>
-                            <div className="image-seven">
+                            <div className="image">
                                 <img src="img/galleryOpt/galery4.jpg"  alt=""/>
                                 
                             </div>

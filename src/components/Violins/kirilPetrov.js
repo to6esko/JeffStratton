@@ -21,6 +21,12 @@ export default class KirilPetrov extends React.Component{
                         They speak for themselves... they are out <br/>of this world.
                     </p>
                     <p className="name">
+                        Each violin is a one of a kind master piece.
+                    </p>
+                    <p className="name">
+                        Hand painted, signed, and numbered.
+                    </p>
+                    <p className="name">
                         Contact me for more info.
                     </p>
                 </div>

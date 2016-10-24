@@ -36,13 +36,14 @@ export default class Gallery extends React.Component {
         var pic = document.getElementsByClassName('myImg');
         var modal = document.getElementById('myModal');
         var modalImg = document.getElementById("img01");
-        for (var i = 0; i < pic.length; i++) {
+     
+        for (var i = 0, len = pic.length; i < len; i++) {
             pic[i].addEventListener("click", function () {
                 modal.style.display = "block";
                 modalImg.src = this.src;
             });
         }
-
+        
         var span = document.getElementsByClassName("close")[0];
         span.addEventListener('click', function () {
             modal.style.display = "none";
@@ -92,19 +93,6 @@ export default class Gallery extends React.Component {
 
 /*
 export default class Gallery extends React.Component {
-    componentDidMount() {
-        var modal = document.getElementById('myModal');
-        var images = document.getElementById('myImg');
-        var modalImg = document.getElementById("img01");
-        images.addEventListener("click", function () {
-            modal.style.display = "block";
-            modalImg.src = this.src;
-        });
-        var span = document.getElementsByClassName("close")[0];
-        span.addEventListener('click', function () {
-            modal.style.display = "none";
-        });
-    }
     render() {
         var divStyle = { backgroundImage: 'url(' + 'img/pagesOpt/gallery.jpg' + ')' };
         return (
@@ -118,37 +106,31 @@ export default class Gallery extends React.Component {
                 </div>
                 <div className="gallery-clearfix">
                     <div className="galleryImages">
-                        <div>
-                            <div className="image-one">
-                                <img id="myImg" src="img/galleryOpt/back2.jpg" alt="" />
-                                <div id="myModal" className="modal">
-                                    <span className="close">×</span>
-                                    <img className="modal-content" id="img01" />
-                                </div>
+                            <div className="image">
+                                <img src="img/galleryOpt/back2.jpg" alt="" />
                             </div>
-                        </div>
 
-                        <div className="image-one">
+                        <div className="image">
                             <img src="img/galleryOpt/galery3.jpg" alt="" />
 
                         </div>
-                        <div className="image-one">
+                        <div className="image">
                             <img src="img/galleryOpt/galery2.jpg" alt="" />
 
                         </div>
-                        <div className="image-one">
+                        <div className="image">
                             <img src="img/galleryOpt/galery5.jpg" alt="" />
 
                         </div>
-                        <div className="image-one">
+                        <div className="image">
                             <img src="img/galleryOpt/deal2.jpg" alt="" />
 
                         </div>
-                        <div className="image-one">
+                        <div className="image">
                             <img src="img/galleryOpt/galery1.jpg" alt="" />
 
                         </div>
-                        <div className="image-one">
+                        <div className="image">
                             <img src="img/galleryOpt/galery4.jpg" alt="" />
 
                         </div>
@@ -158,5 +140,4 @@ export default class Gallery extends React.Component {
         );
     }
 }
-
 */
