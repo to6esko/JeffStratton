@@ -22,6 +22,9 @@ const images = [
     },
     {
         src: "img/galleryOpt/galery4.jpg"
+    },
+    {
+        src: "img/galleryOpt/galery6.jpg"
     }
 ]
 
