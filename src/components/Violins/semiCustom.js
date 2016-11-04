@@ -32,6 +32,7 @@ export default class SemiCustom extends React.Component{
                         <p>Solid brass "Stratton Violin" hardware</p>
                         <p>Your choice of 4 or 5 string</p>
                         <p>Barbera twin hybrid bridge</p>
+                        <p>Custom colors and finishes on request</p>
                     </div>
                     <h3 className="price2"><p>4 String $2800.00 &nbsp;&nbsp;&nbsp;</p><p>5 String $3000.00</p></h3>
                 </div>
