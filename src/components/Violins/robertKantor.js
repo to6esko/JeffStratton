@@ -19,8 +19,8 @@ export default class RobertKantor extends React.Component{
                     <h3 className="price1">Robert Kantor Body</h3>
                     <p className="name">
                         Kantor Guitars are famous for there work</p>
-                    <p className="name">with Swarovski Elements.</p>
-                        <p className="name">  There work is perfect to say the least.</p>
+                    <p className="text">with Swarovski Elements.</p>
+                        <p className="name">There work is perfect to say the least.</p>
                     <p className="name">
                         These violins are custom order only.
                     </p>

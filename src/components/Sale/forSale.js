@@ -1,9 +1,26 @@
 import React from 'react';
-import {Link} from 'react-router';
+import { Link } from 'react-router';
 import Home from 'components/Home/home';
 
 
-
+export default class ForSale extends React.Component {
+    render() {
+        var divStyle = { backgroundImage: 'url(' + 'img/pagesOpt/contactLinks.jpg' + ')' };
+        return (
+            <div className="gallery-content">
+                <div>
+                    <span className="gallery" style={divStyle}></span>
+                    <div className="galleryHome">
+                        <Link to="#/home"><Home /></Link>
+                        <h3>For Sale</h3>
+                    </div>
+                </div>
+            </div>
+        )
+    }
+}
+/*
+// add new picture for sale
 const images = [
     {
         src: "img/galleryOpt/back2.jpg"
@@ -86,7 +103,7 @@ export default class ForSale extends React.Component {
         )
     }
 }
-
+*/
 
 /*
 export default class ForSale extends React.Component{
