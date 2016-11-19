@@ -56,11 +56,11 @@ export default class Gallery extends React.Component {
     render() {
         const browserUtil = new BrowserUtil();
         const picture = this.state.images.map((pic, i) => {
-            const picSrc = browserUtil.convertImagePath(pic.src);
+            const imageSrc = browserUtil.convertImagePath(pic.src);
 
             return (
                 <div className="image" key={i}>
-                    <img className="myImg" key={i} src={picSrc} />
+                    <img className="myImg" key={i} src={imageSrc} />
                     <div id="myModal" className="modal">
                         <span className="close">×</span>
                         <img className="modal-content" id="img01" key={i} src={pic.src} />
