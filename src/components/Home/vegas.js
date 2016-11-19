@@ -9,7 +9,7 @@ export default class Vegas extends React.Component{
 
         let images = [];
             
-        for (let i of Array(8).keys()) {
+        for (let i of Array(9).keys()) {
             images.push({
                 src: `img/pageSlidersOpt/${i + 1}.jpg`
             });

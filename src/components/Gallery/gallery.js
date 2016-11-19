@@ -3,29 +3,15 @@ import { Link } from 'react-router';
 import Home from 'components/Home/home';
 import BrowserUtil from 'lib/BrowserUtil';
 
-const images = [
-    {
-        src: "img/galleryOpt/galery7.jpg"
-    },
-    {
-        src: "img/galleryOpt/galery3.jpg"
-    },
-    {
-        src: "img/galleryOpt/galery2.jpg"
-    },
-    {
-        src: "img/galleryOpt/galery5.jpg"
-    },
-    {
-        src: "img/galleryOpt/galery1.jpg"
-    },
-    {
-        src: "img/galleryOpt/galery4.jpg"
-    },
-    {
-        src: "img/galleryOpt/galery6.jpg"
-    }
-]
+
+let images = [];
+            
+        for (let i of Array(7).keys()) {
+            images.push({
+                src: `img/galleryOpt/galery${i + 1}.jpg`
+            });
+        }
+
 
 export default class Gallery extends React.Component {
     constructor(props) {
