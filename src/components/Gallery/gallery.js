@@ -5,7 +5,7 @@ import Home from 'components/Home/home';
 
 const images = [
     {
-        src: "img/galleryOpt/back2.jpg"
+        src: "img/galleryOpt/galery7.jpg"
     },
     {
         src: "img/galleryOpt/galery3.jpg"
