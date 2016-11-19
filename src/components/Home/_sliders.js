@@ -1,3 +1,5 @@
+//Not in use
+
 import React from 'react';
 
 let images = [
