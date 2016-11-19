@@ -2,10 +2,12 @@ import React from 'react';
 import {Link} from 'react-router';
 import Home from 'components/Home/home';
 import Leault from 'components/leault';
+import BrowserUtil from 'lib/BrowserUtil';
 
 export default class Contact extends React.Component{
     render() {
-        let divStyle = { backgroundImage: 'url(' + 'img/pagesOpt/forsale.jpg' + ')' };
+        const browserUtil = new BrowserUtil();
+        let divStyle = { backgroundImage: 'url(' + browserUtil.convertImagePath('img/pagesOpt/forsale.jpg') + ')' };
         let instaramImg = { backgroundImage: 'url(' + 'img/icons/Instagram-icon.png' + ')', width: 25, height: 25 };
         let faceBookImg = { backgroundImage: 'url(' + 'img/icons/facebook-icon.png' + ')', width: 25, height: 25 };
         let pinterestImg = { backgroundImage: 'url(' + 'img/icons/pinterest-icon.png' + ')', width: 25, height: 25 };

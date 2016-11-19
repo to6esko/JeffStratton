@@ -55,7 +55,6 @@ export default class Gallery extends React.Component {
     }
     render() {
         const browserUtil = new BrowserUtil();
-
         const picture = this.state.images.map((pic, i) => {
             const imageSrc = browserUtil.convertImagePath(pic.src);
 
