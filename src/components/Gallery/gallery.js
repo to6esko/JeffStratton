@@ -55,6 +55,7 @@ export default class Gallery extends React.Component {
     }
     render() {
         const browserUtil = new BrowserUtil();
+
         const picture = this.state.images.map((pic, i) => {
             const imageSrc = browserUtil.convertImagePath(pic.src);
 
@@ -68,7 +69,7 @@ export default class Gallery extends React.Component {
                 </div>
             )
         });
-        var divStyle = { backgroundImage: 'url(' + 'img/pagesOpt/gallery.jpg' + ')' };
+        var divStyle = { backgroundImage: 'url(' + browserUtil.convertImagePath('img/pagesOpt/gallery.jpg') + ')' };
         return (
             <div className="gallery-content">
                 <div>
