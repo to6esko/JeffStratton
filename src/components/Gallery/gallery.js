@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router';
 import Home from 'components/Home/home';
-
+import BrowserUtil from 'lib/BrowserUtil';
 
 const images = [
     {
@@ -54,10 +54,13 @@ export default class Gallery extends React.Component {
 
     }
     render() {
+        const browserUtil = new BrowserUtil();
         const picture = this.state.images.map((pic, i) => {
+            const picSrc = browserUtil.convertImagePath(pic.src);
+
             return (
                 <div className="image" key={i}>
-                    <img className="myImg" key={i} src={pic.src} />
+                    <img className="myImg" key={i} src={picSrc} />
                     <div id="myModal" className="modal">
                         <span className="close">×</span>
                         <img className="modal-content" id="img01" key={i} src={pic.src} />
@@ -86,11 +89,6 @@ export default class Gallery extends React.Component {
         )
     }
 }
-
-
-
-
-
 
 
 
