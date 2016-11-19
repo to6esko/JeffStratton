@@ -5,7 +5,7 @@ import Home from 'components/Home/home';
 
 export default class ForSale extends React.Component {
     render() {
-        var divStyle = { backgroundImage: 'url(' + 'img/pagesOpt/contactLinks.jpg' + ')' };
+        var divStyle = { backgroundImage: 'url(' + 'img/pagesOpt/forsaleLowRes.jpg' + ')' };
         return (
             <div className="gallery-content">
                 <div>
