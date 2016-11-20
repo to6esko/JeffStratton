@@ -1,10 +1,14 @@
 import React from 'react';
 import {Link} from 'react-router';
 import Home from 'components/Home/home';
+import BrowserUtil from 'lib/BrowserUtil';
 
 export default class Standard extends React.Component{
+    
     render() {
-        var divStyles = { backgroundImage: 'url(' + 'img/modelPagesOpt/standard2.jpg' + ')' };
+        const browserUtil = new BrowserUtil();
+
+        var divStyles = { backgroundImage: 'url(' + browserUtil.convertImagePath('img/modelPagesOpt/standard2.jpg') + ')' };
         return (
             <div className="section-inner">
                 <div>

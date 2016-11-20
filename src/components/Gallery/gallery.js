@@ -54,7 +54,7 @@ export default class Gallery extends React.Component {
                 </div>
             )
         });
-        var divStyle = { backgroundImage: 'url(' + 'img/pagesOpt/galleryLowRes.jpg' + ')' };
+        var divStyle = { backgroundImage: 'url(' + browserUtil.convertImagePath('img/pagesOpt/gallery.jpg') + ')' };
         return (
             <div className="gallery-content">
                 <div>
