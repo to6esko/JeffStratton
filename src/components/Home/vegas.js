@@ -6,7 +6,7 @@ let images = [];
             
         for (let i of Array(9).keys()) {
             images.push({
-                src: `img/pageSlidersOpt/${i + 1}LowRes.jpg`
+                src: `img/pageSlidersOpt/${i + 1}.jpg`
             });
         }
 
