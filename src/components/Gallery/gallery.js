@@ -3,7 +3,7 @@ import { Link } from 'react-router';
 import Home from 'components/Home/home';
 import BrowserUtil from 'lib/BrowserUtil';
 
-
+/*
 let images = [];
             
         for (let i of Array(7).keys()) {
@@ -11,7 +11,31 @@ let images = [];
                 src: `img/galleryOpt/galery${i + 1}.jpg`
             });
         }
-
+ */
+        
+const images = [
+    {
+        src: 'img/galleryOpt/galery1.jpg'
+    },
+    {
+        src: 'img/galleryOpt/galery2.jpg'
+    },
+    {
+        src: 'img/galleryOpt/galery3.jpg'
+    },
+    {
+        src: 'img/galleryOpt/galery4.jpg'
+    },
+    {
+        src: 'img/galleryOpt/galery5.jpg'
+    },
+    {
+        src: 'img/galleryOpt/galery6.jpg'
+    },
+    {
+        src: 'img/galleryOpt/galery7.jpg'
+    }
+]
         
 export default class Gallery extends React.Component {
     constructor(props) {
@@ -42,11 +66,11 @@ export default class Gallery extends React.Component {
     render() {
         const browserUtil = new BrowserUtil();
         const picture = this.state.images.map((pic, i) => {
-            const imageSrc = browserUtil.convertImagePath(pic.src);
+            //const imageSrc = browserUtil.convertImagePath(pic.src);
 
             return (
                 <div className="image" key={i}>
-                    <img className="myImg" key={i} src={imageSrc} />
+                    <img className="myImg" key={i} src={pic.src} />
                     <div id="myModal" className="modal">
                         <span className="close">×</span>
                         <img className="modal-content" id="img01" key={i} src={pic.src} />
