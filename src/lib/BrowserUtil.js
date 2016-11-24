@@ -12,9 +12,13 @@ export default class BrowserUtil {
         return path;
     }    
     
-    checkIsLowResolution() {	
-        if (window.innerWidth <= 1024 && window.innerHeight <= 768) {
-                return true;
+    checkIsLowResolution() {
+        const dimension1 = 1024;
+        const dimension2 = 768;
+        if (window.innerWidth <= dimension1 && window.innerHeight <= dimension2
+            || window.innerWidth <= dimension2 && window.innerHeight <= dimension1
+        ) {
+            return true;
         } else {
             return false;
         }
