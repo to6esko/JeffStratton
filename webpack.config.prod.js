@@ -1,4 +1,4 @@
-// command: webpack -p --progress --config webpack.config.prod.js
+// command: webpack -p --progress --config webpack.config.prod.js ; cp public/bundle.js ../JeffStrattonDemo/bundle.js
 
 "use strict";
 
