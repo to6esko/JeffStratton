@@ -14,6 +14,8 @@ import Gallery from 'components/Gallery/gallery';
 import ForSale from 'components/Sale/forSale';
 import Contact from 'components/Contact/contact';
 
+document.getElementById('versionSpan').innerHTML = __COMMIT_HASH__;
+
 const app = document.getElementById('app');
 
 ReactDOM.render(
@@ -28,3 +30,4 @@ ReactDOM.render(
         <Route path="forSale" component={ForSale}/>
         <Route path="contact" component={Contact}/>
     </Router>, app);
+
