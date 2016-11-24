@@ -1,14 +1,14 @@
 import React from 'react';
 import vegas from 'vegas';
+import Util from 'lib/Util';
 
+let images = [];            
+for (let i of Util.range(9)) {
+    images.push({
+        src: `img/pageSlidersOpt/${i + 1}.jpg`
+    });
+}
 
-let images = [];
-            
-        for (let i of Array(9).keys()) {
-            images.push({
-                src: `img/pageSlidersOpt/${i + 1}.jpg`
-            });
-        }
   /*      
 const images = [
     {

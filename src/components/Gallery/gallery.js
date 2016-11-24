@@ -2,9 +2,10 @@ import React from 'react';
 import { Link } from 'react-router';
 import Home from 'components/Home/home';
 import BrowserUtil from 'lib/BrowserUtil';
+import Util from 'lib/Util';
 
 let images = [];            
-for (let i of Array(7).keys()) {
+for (let i of Util.range(7)) {
     images.push({
         src: `img/galleryOpt/galery${i + 1}.jpg`
     });
