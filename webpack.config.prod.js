@@ -1,7 +1,14 @@
 // command: webpack -p --progress --config webpack.config.prod.js
 
-var webpack = require("webpack");
-var path = require("path");
+"use strict";
+
+let webpack = require("webpack");
+let path = require("path");
+
+// get git info from command line
+let commitHash = require('child_process')
+  .execSync('git rev-parse --short HEAD')
+  .toString();
 
 module.exports = {
     devtool: 'cheap-module-source-map',
@@ -22,7 +29,7 @@ module.exports = {
             {
                 test: /\.jsx?$/,
                 exclude: /node_modules/,
-                loaders: ['react-hot', 'babel?presets[]=react,presets[]=es2015']
+                loaders: ['react-hot', 'babel?presets[]=react,presets[]=latest']
             }
         ]
     },
@@ -38,6 +45,9 @@ module.exports = {
             $: "jquery",
             jQuery: "jquery",
             "window.jQuery": "jquery"
+        }),
+         new webpack.DefinePlugin({
+            __COMMIT_HASH__: JSON.stringify(commitHash),
         })
     ]
 }
