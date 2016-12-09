@@ -438,7 +438,7 @@ position: absolute;
 
 /*&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&*/
 
-@media screen and (min-width: 1024px){
+@media screen and (max-width: 1024px){
     h1{
         font-size: 3em;
     }
@@ -480,34 +480,47 @@ position: absolute;
         display: block;
     }
     .contactList{
-        display: block;
         padding-left: 15%;
     }
-    .contact{
-        display: block;
-    }
     .social{
-        display: block;
         margin-left: 25%;                
     }
     .links{
-        display: block;
-        margin-left: 55%;
+        margin-left: 12%;
     }
     .dealers{
-        display: block;
-        margin-left: 39%;
+        margin-left: 38%;
         margin-top: 237px;
     }
 }
 
+
+/* Extra Small Devices, iPhones 5*/ 
+@media only screen and (max-width : 580px){
+    .galleryHome h3{
+        margin-top: 0;
+    }
+ .contacts{
+        margin-top: -9px;
+        margin-left: -4%;
+ }
+ .social{
+        margin-left: 38%;
+        margin-top: 230px;
+    }
+    .links{
+        margin-left: -47%;
+        margin-top: 370px;
+    }
+    .dealers{
+        margin-left: 18%;
+        margin-top: 410px;
+    }
+}
 /* Extra Small Devices, Phones */ 
 @media only screen and (max-width : 480px) {
     h1{
         display: inline-block;
-    }
-    h3{
-        display: initial;
     }
     .containerLeault{
         position: absolute;
@@ -522,8 +535,7 @@ position: absolute;
     }
     .content{
         width:95%;
-        left: 0;
-        text-align: center;
+        left: 10px;
         margin-top:270px;
     }
     .galleryImages{
@@ -538,7 +550,7 @@ position: absolute;
         margin-top: 600px;
     }
     .links{
-        margin-left: 2%;
+        margin-left: -40%;
         margin-top: 790px;
     }
     .links p{
@@ -575,16 +587,16 @@ position: absolute;
         line-height: 20px;
     }
     .contacts{
-        padding-left: 6%;
+        padding-left: 2%;
     }
     .social{
-        padding-left: 6%;
+        padding-left: 2%;
     }
     .links{
-        padding-left: 13%;
+        padding-left: 5%;
     }
     .dealers{
-        padding-left: 19%;
+        padding-left: 20%;
     }
 }
 
