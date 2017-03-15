@@ -1,5 +1,8 @@
 // command: webpack -p --progress --config webpack.config.prod.js ; cp public/bundle.js ../JeffStrattonDemo/bundle.js
 
+
+// command Demo: webpack -p --progress --config webpack.config.prod.js ; cp public/bundle.js ../JeffStrattonDemo/bundle.js ; rm -rf ../JeffStrattonDemo/img ../JeffStrattonDemo/css/; cp -R index.html img css/ ../JeffStrattonDemo/; cd ../JeffStrattonDemo; git add * ; git commit -am "update"; git push; cd  ../JeffStratton
+
 "use strict";
 
 let webpack = require("webpack");

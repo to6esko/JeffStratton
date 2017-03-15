@@ -2,7 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import { Router, Route, Link, hashHistory, IndexRoute } from 'react-router';
 import App from 'components/app';
-//import Home from 'components/Home/home'; 
+import Home from 'components/Home/home'; 
 //<IndexRoute component={home}/>
 import Violins from 'components/Violins/violins';
 import Gypsy from 'components/Violins/gypsy';
@@ -20,8 +20,11 @@ const app = document.getElementById('app');
 
 ReactDOM.render(
     <Router history={hashHistory}>
-        <Route path="/"component={App}/>
-        <Route path="gallery" component={Gallery}/>
+        <Route>
+            <Route path="/" component={App} />
+            <IndexRoute component={Home}/>
+        </Route>
+         <Route path="gallery" component={Gallery} />
         <Route path="violins/semiCustom" component={SemiCustom}/>
         <Route path="violins/standard" component={Standard}/>
         <Route path="violins/gypsy" component={Gypsy}/>
