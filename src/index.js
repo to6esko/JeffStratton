@@ -3,7 +3,6 @@ import ReactDOM from 'react-dom';
 import { Router, Route, Link, hashHistory, IndexRoute } from 'react-router';
 import App from 'components/app';
 import Home from 'components/Home/home'; 
-//<IndexRoute component={home}/>
 import Violins from 'components/Violins/violins';
 import Gypsy from 'components/Violins/gypsy';
 import Standard from 'components/Violins/standard';

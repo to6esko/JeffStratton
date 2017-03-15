@@ -3,6 +3,13 @@
 import React from 'react';
 import Util from 'lib/Util';
 
+let images = [];            
+for (let i of Util.range(9)) {
+    images.push({
+        src: `img/pageSlidersOpt/${i + 1}.jpg`
+    });
+}
+/*
 let images = [
     {
         img: 'img/pageSlidersOpt/1.jpg'
@@ -32,7 +39,7 @@ let images = [
         img: 'img/pageSlidersOpt/9.jpg'
     }
 ]
-
+*/
 
 export default class Sliders extends React.Component {
     constructor(props) {
@@ -69,9 +76,7 @@ export default class Sliders extends React.Component {
     render() {
         var pointedImage = this.state.links[this.state.myIndex];
         var imageStyle = {
-            backgroundImage: 'url(' + pointedImage.img + ')',
-            WebkitTransition: 'all',
-            msTransition: 'all'
+            backgroundImage: 'url(' + pointedImage.img + ')'
         };
         return (
             <div className="slide-content">
